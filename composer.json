@@ -1,0 +1,22 @@
+{
+    "name": "nasajon/nfereader",
+    "authors": [
+        {
+            "name": "Gisele Carneiro",
+            "email": "giselecarneiro@nasajon.com.br"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Nasajon\\NFeReader\\": "src/"
+        }
+    },
+    "require": {
+        "symfony/finder": "~3.3",
+        "symfony/console": "~3.3",
+        "symfony/filesystem": "~3.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.3"
+    }
+}

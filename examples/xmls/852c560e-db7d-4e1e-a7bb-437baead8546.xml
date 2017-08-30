@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe versao="3.10" Id="NFe31170393586303001433550010001775071333871201"><ide><cUF>31</cUF><cNF>33387120</cNF><natOp>Venda producao do estabelecimento</natOp><indPag>1</indPag><mod>55</mod><serie>1</serie><nNF>177507</nNF><dhEmi>2017-03-28T18:33:03-03:00</dhEmi><tpNF>1</tpNF><idDest>2</idDest><cMunFG>3167202</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>1</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>9</indPres><procEmi>0</procEmi><verProc>SAP NFE 3.10</verProc></ide><emit><CNPJ>93586303001433</CNPJ><xNome>VIBRA AGROINDUSTRIAL SA</xNome><xFant>VIBRA AGROINDUSTRIAL SA</xFant><enderEmit><xLgr>RUA ZOELIO ZOLA</xLgr><nro>1500</nro><xBairro>Montreal</xBairro><cMun>3167202</cMun><xMun>Sete Lagoas</xMun><UF>MG</UF><CEP>35701352</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>3137734300</fone></enderEmit><IE>0017271920145</IE><CRT>3</CRT></emit><dest><CNPJ>15796122000103</CNPJ><xNome>Nutry Max Comercio de Produtos Alimenticios Ltda ME</xNome><enderDest><xLgr>Rua do Arroz</xLgr><nro>76</nro><xBairro>Penha Circular</xBairro><cMun>3304557</cMun><xMun>Rio de Janeiro</xMun><UF>RJ</UF><CEP>21011070</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>2136138097</fone></enderDest><indIEDest>1</indIEDest><IE>79785407</IE></dest><det nItem="1"><prod><cProd>000000000000009406</cProd><cEAN>17898506323514</cEAN><xProd>CORTES CONGELADOS DE FRANGO (COXAS E SOBRECOXAS) - ENT18KG MI NAT</xProd><NCM>02071400</NCM><CEST>1708700</CEST><CFOP>6101</CFOP><uCom>CX</uCom><qCom>556.0000</qCom><vUnCom>66.6000000000</vUnCom><vProd>37029.60</vProd><cEANTrib /><uTrib>CX</uTrib><qTrib>556.0000</qTrib><vUnTrib>66.6000000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS20><orig>0</orig><CST>20</CST><modBC>3</modBC><pRedBC>41.6600</pRedBC><vBC>21603.07</vBC><pICMS>12.0000</pICMS><vICMS>2592.37</vICMS></ICMS20></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>51</CST></IPINT></IPI><PIS><PISNT><CST>06</CST></PISNT></PIS><COFINS><COFINSNT><CST>06</CST></COFINSNT></COFINS></imposto><infAdProd>Reducao base de calculo do ICMS 41,66% conforme item 47 parte I do anexo IV do RICMS/MG IPI: Aliquota Zero - Conf. Art. 69 do Decreto No 7.212/15-06-2010 - e pr Operacao Tributavel (aliquota zero) - COFINS Operacao Tributavel (aliquota zero) - PIS</infAdProd></det><det nItem="2"><prod><cProd>000000000000009411</cProd><cEAN>7898506320912</cEAN><xProd>CORTES CONGELADOS DE FRANGO (COXAS E SOBRECOXAS)- BOB18KGNAT</xProd><NCM>02071400</NCM><CEST>1708700</CEST><CFOP>6101</CFOP><uCom>CX</uCom><qCom>306.0000</qCom><vUnCom>66.6000000000</vUnCom><vProd>20379.60</vProd><cEANTrib /><uTrib>CX</uTrib><qTrib>306.0000</qTrib><vUnTrib>66.6000000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS20><orig>0</orig><CST>20</CST><modBC>3</modBC><pRedBC>41.6600</pRedBC><vBC>11889.46</vBC><pICMS>12.0000</pICMS><vICMS>1426.74</vICMS></ICMS20></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>51</CST></IPINT></IPI><PIS><PISNT><CST>06</CST></PISNT></PIS><COFINS><COFINSNT><CST>06</CST></COFINSNT></COFINS></imposto><infAdProd>Reducao base de calculo do ICMS 41,66% conforme item 47 parte I do anexo IV do RICMS/MG IPI: Aliquota Zero - Conf. Art. 69 do Decreto No 7.212/15-06-2010 - e pr Operacao Tributavel (aliquota zero) - COFINS Operacao Tributavel (aliquota zero) - PIS</infAdProd></det><total><ICMSTot><vBC>33492.53</vBC><vICMS>4019.11</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>0.00</vBCST><vST>0.00</vST><vProd>57409.20</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>57409.20</vNF></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CNPJ>14569162000150</CNPJ><xNome>Vieira E Carvalho Transportes De Ca Ltda Me</xNome><IE>0018673130085</IE><xEnder>Guarani 703</xEnder><xMun>Cornel Fabriciano</xMun><UF>MG</UF></transporta><vol><qVol>862</qVol><marca>Nat.</marca><pesoL>15516.000</pesoL><pesoB>15849.360</pesoB><lacres><nLacre>1</nLacre></lacres></vol></transp><infAdic><infCpl>Reducao base de calculo do ICMS 41,66% conforme item 47 parte I do anexo IV do RICMS/MG IPI: Aliquota Zero - Conf. Art. 69 do Decreto No 7.212/15-06-2010 - e pr Operacao Tributavel (aliquota zero) - COFINS Operacao Tributavel (aliquota zero) - PIS Nro Doc. Transporte: 0000230456 Nr da Remessa: 0080615859 Nr da Ordem: 0000330221 Lacre do SIF: 27537 - SIF 725 Taxa: 1,00000</infCpl></infAdic><compra><xNEmp>33022</xNEmp><xPed>1</xPed></compra></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFe31170393586303001433550010001775071333871201"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>J0zo3kYN9cCf582rqIQspdVK01o=</DigestValue></Reference></SignedInfo><SignatureValue>QMgd9ewQLCoRTk74VgRDOaO+6t02TsfgXjiSsDibqT+pHVV5uKXtPVK+6oqQp08dJ0ntSlnT7mfN
+1CmM4aGrKVYeiq3QpIICVqJP+z4vd8HpQ/tlSfcIE2t4u1LQZyV2QB9tjbNf8HMoRqSkkAZUkyj3
+YVBUiXhzmigSBYw9eXpxEEtFQU/gG1VNNfcT5FuQZuPGkv3CNQ1HTM+7n/A8E1XIugdb/IXod0R0
+ZMZEhL9cqmOvyrvQZdXtTDRTzWXqoOUcxp+E2yt4lEx03+NqQfNfaOuvf+mRCf7QxjLEnGZeHHFU
+XaX4pp2RN9pwtgaukCZIjXjHguetbNf7ln69XA==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIHfTCCBWWgAwIBAgIEAM+y2DANBgkqhkiG9w0BAQsFADCBiTELMAkGA1UEBhMCQlIxEzARBgNV
+BAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRv
+IEJyYXNpbCAtIFJGQjEtMCsGA1UEAxMkQXV0b3JpZGFkZSBDZXJ0aWZpY2Fkb3JhIFNFUlBST1JG
+QnY0MB4XDTE2MDYyMTE3MzkyNFoXDTE3MDYyMTE3MzkyNFowgdsxCzAJBgNVBAYTAkJSMQswCQYD
+VQQIEwJSUzETMBEGA1UEBxMKTU9OVEVORUdSTzETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UE
+CxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRMwEQYDVQQL
+EwpBUkNPUlJFSU9TMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEExMTAwLgYDVQQDEydWSUJSQSBBR1JP
+SU5EVVNUUklBTCBTIEE6OTM1ODYzMDMwMDAxMTkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEK
+AoIBAQCCy6Vy0KbqsBjkCEE9tgExX87i1LE4T9XKOKyyGrMw6Av8nBnW+BzSvwMDgEsseEXjj5Kl
+pVDncx/NjcFbDbN1HiQqeAdB1u+7KD4vQSmw8jFFCDGSHbrm5PNT02xdYdCp26+1D5MDVDiYFBcR
+01z7loCPxGaIcWk9l7rQlyRxk/Nk8PJsr0Y0D/kvpE9jO86RfDBIYbnz0GFdeg5UkLv9G/qxJF8V
+wbUINQKO/Afv1FU4XP0Vna09a8dKDsurVdOVfN2AY7czbiaWyoDpnHOCpMW1AqS7WUSIbdIAAWyh
+XiDYDveuaa68ItVuTPujht1qL14eih7k72EkpmcjfO/NAgMBAAGjggKXMIICkzAfBgNVHSMEGDAW
+gBQwCiwMuDcr4PbaAv6AgmeWmFQZOzBbBgNVHSAEVDBSMFAGBmBMAQIBCjBGMEQGCCsGAQUFBwIB
+FjhodHRwOi8vcmVwb3NpdG9yaW8uc2VycHJvLmdvdi5ici9kb2NzL2RwY2Fjc2VycHJvcmZiLnBk
+ZjCB0QYDVR0fBIHJMIHGMDygOqA4hjZodHRwOi8vcmVwb3NpdG9yaW8uc2VycHJvLmdvdi5ici9s
+Y3IvYWNzZXJwcm9yZmJ2NC5jcmwwPqA8oDqGOGh0dHA6Ly9jZXJ0aWZpY2Fkb3MyLnNlcnByby5n
+b3YuYnIvbGNyL2Fjc2VycHJvcmZidjQuY3JsMEagRKBChkBodHRwOi8vcmVwb3NpdG9yaW8uaWNw
+YnJhc2lsLmdvdi5ici9sY3Ivc2VycHJvL2Fjc2VycHJvcmZidjQuY3JsMFYGCCsGAQUFBwEBBEow
+SDBGBggrBgEFBQcwAoY6aHR0cDovL3JlcG9zaXRvcmlvLnNlcnByby5nb3YuYnIvY2FkZWlhcy9h
+Y3NlcnByb3JmYnY0LnA3YjCBtwYDVR0RBIGvMIGsoD0GBWBMAQMEoDQEMjI5MDMxOTY1NDMzODIx
+MjYwODcwMDAwMDAwMDAwMDAwMDAwNjAxODY0MzE3OFNTUFJToB0GBWBMAQMCoBQEEkdFUlNPTiBM
+VUlTIE1VTExFUqAZBgVgTAEDA6AQBA45MzU4NjMwMzAwMDExOaAXBgVgTAEDB6AOBAwwMDAwMDAw
+MDAwMDCBGHRlYW5pLnNpbHZhQHZpYnJhLmNvbS5icjAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYw
+FAYIKwYBBQUHAwQGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUAA4ICAQAc3m3DG2Kg3m/cp+JKeTJq
+6xnmL7fqckAaMxtmX5kMedrrwEMW6ESQRIa90bqqw/YD3fZlIChiyfhmwyRHqNNA6MkOhTEa3yvR
+SzwiM0aSZc7EsxkKydqQxBgzEvWCev5fkTM2QrtpWUYEkGsuMunXsF9KjL6fS2XgsxYuHnmX+icX
+IJgAM/Nc1LN1eTN2RkK8rLrMe8V4WAJfOnMGYntTq4n0kgKliL+N0uQDgF01fMSfX/xNgvz3ADDh
++bJBZLKE5sMsyxXwTX0HDkNiYz2hr5TwZstF0ObhwVjCskcRves9V61UybKPc+q8+sfYMLtqhVXf
+VVfklzLqgVRhFnJl+IpW1QrQD1TmiitwwvUnUFkyKJgUbeOsybDNdtVWecJj71/PMiguSql7n9ht
+jDv6W9NjuGQhja9LX9jJ6/uaOt5ichxiBS2GPOAUYt6VN1+LsARcu5rkf+oKgyhNzrku8UwfOASU
+2zASPk5uSF+8iI7mDX23naD2gxX5yBzqouPWOhRCfMJDwDS4RyAYIMdvZfb5YOWKmuqdWm45ebAm
+2BCWNaWcl2H8f4o9w99VFERNg9gQwoldJKp241aJzZNxhUM4kxDCguhVfwwa9iLm2EkL46XZUO+1
+UtuFNrvX/8uX0d6+nHna+F7U7n0MLqK2cWY6mU0OEMEImbpHY1IBQg==</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="3.10"><infProt Id="ID131172500472235">
+  <tpAmb>1</tpAmb>
+  <verAplic>14_0_17</verAplic>
+  <chNFe>31170393586303001433550010001775071333871201</chNFe>
+  <dhRecbto>2017-03-28T18:33:44-03:00</dhRecbto>
+  <nProt>131172500472235</nProt>
+  <digVal>J0zo3kYN9cCf582rqIQspdVK01o=</digVal>
+  <cStat>100</cStat>
+  <xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt></protNFe></nfeProc>

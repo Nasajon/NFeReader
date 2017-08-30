@@ -1,0 +1,51 @@
+<nfeProc versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe31170142816108000520550010000468021733208441" versao="3.10"><ide><cUF>31</cUF><cNF>73320844</cNF><natOp>VENDA PROD ESTAB SUJ REG S.TRIB - CONTR SUBSTITUTO</natOp><indPag>1</indPag><mod>55</mod><serie>1</serie><nNF>46802</nNF><dhEmi>2017-01-18T21:34:14-02:00</dhEmi><dhSaiEnt>2017-01-18T21:34:14-02:00</dhSaiEnt><tpNF>1</tpNF><idDest>2</idDest><cMunFG>3164605</cMunFG><tpImp>2</tpImp><tpEmis>1</tpEmis><cDV>1</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>9</indPres><procEmi>0</procEmi><verProc>1.00</verProc></ide><emit><CNPJ>42816108000520</CNPJ><xNome>AVIVAR ALIMENTOS LTDA - FILIAL REVENDA</xNome><xFant>AVIVAR ALIMENTOS LTDA - FILIAL REVENDA</xFant><enderEmit><xLgr>A POVOADO DE TEIXEIRAS, BOX 06</xLgr><nro>S/N</nro><xBairro>CENTRO</xBairro><cMun>3164605</cMun><xMun>SAO SEBASTIAO DO OESTE</xMun><UF>MG</UF><CEP>35506000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>3732862000</fone></enderEmit><IE>6469911090422</IE><IEST>92043304</IEST><CRT>3</CRT></emit><dest><CNPJ>11037284000107</CNPJ><xNome>BOMFRIOS COMERCIO DE ALIMENTOS LTDA</xNome><enderDest><xLgr>AVENIDA 22 DE MAIO</xLgr><nro>2856</nro><xCpl>LOTE 04 QUADRA06%09</xCpl><xBairro>LOTEAMENTO SANTO EXPEDITO</xBairro><cMun>3301900</cMun><xMun>ITABORAI</xMun><UF>RJ</UF><CEP>24800000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>2136373246</fone></enderDest><indIEDest>1</indIEDest><IE>78815655</IE><email>cpd@bomfrios.com</email></dest><det nItem="1"><prod><cProd>801</cProd><cEAN>7898312042909</cEAN><xProd>PAO DE QUEIJO TRAD CONG AVIVAR 300G CX 9KG</xProd><NCM>19021100</NCM><CEST>1704900</CEST><CFOP>6401</CFOP><uCom>KG</uCom><qCom>90.0000</qCom><vUnCom>7.1900000000</vUnCom><vProd>647.10</vProd><cEANTrib>7898312042909</cEANTrib><uTrib>KG</uTrib><qTrib>90.0000</qTrib><vUnTrib>7.1900000000</vUnTrib><indTot>1</indTot></prod><imposto><vTotTrib>104.25</vTotTrib><ICMS><ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><vBC>647.10</vBC><pICMS>12.00</pICMS><vICMS>77.65</vICMS><modBCST>4</modBCST><pMVAST>52.74</pMVAST><vBCST>988.38</vBCST><pICMSST>20.00</pICMSST><vICMSST>120.03</vICMSST></ICMS10></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>51</CST></IPINT></IPI><PIS><PISNT><CST>06</CST></PISNT></PIS><COFINS><COFINSNT><CST>06</CST></COFINSNT></COFINS></imposto><infAdProd>10</infAdProd></det><total><ICMSTot><vBC>647.10</vBC><vICMS>77.65</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>988.38</vBCST><vST>120.03</vST><vProd>647.10</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>767.13</vNF><vTotTrib>104.25</vTotTrib></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CNPJ>23514753000110</CNPJ><xNome>COOPERATIVA DE TRANSPORTE E LOGISTICA DE SAO SEBASTIAO DO OE</xNome><IE>0026474950099</IE><xEnder>RUA SETE DE SETEMBRO</xEnder><xMun>SAO SEBASTIAO DO OESTE</xMun><UF>MG</UF></transporta><veicTransp><placa>HDI7781</placa><UF>MG</UF><RNTC>48997200</RNTC></veicTransp><vol><qVol>10</qVol><esp>KG</esp><pesoL>90.000</pesoL><pesoB>94.500</pesoB></vol></transp><cobr><fat><nFat>43803</nFat><vOrig>767.13</vOrig><vLiq>767.13</vLiq></fat><dup><nDup>43803-1</nDup><dVenc>2017-02-01</dVenc><vDup>767.13</vDup></dup></cobr><infAdic><infCpl>PIS COFINS ALIQ. ZERO NOS TERMOS DO INC. XVIII DO ART. 1  DA LEI 10.925/2004 NCM 19.02 ICMS CF ART 42, INCISO II ALINEA C DO RICMS/MG AVIVAR ALIMENTOS LTDA INSC.ESTADUAL SUBSTITUTO TRIB.ICMS RJ:92028810,PROCESSO:04/079/4394/2015, TERMO DE ACORDO IFE-10:257/2015.</infCpl></infAdic><compra><xPed>49949</xPed></compra></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFe31170142816108000520550010000468021733208441"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>V/9FXleyU5LbWeFYPsHSz2p8zw8=</DigestValue></Reference></SignedInfo><SignatureValue>rGgkDd1s5p3CGXBZg5JUj+xL+igkm9wE/G7QgEkaP5nLe0nuwfXPV/2oS/gGI7mb0tlGKm78rnYa
+dzhlPFxfqs1V+Sb8B3KLon/voL59XDyMDkblJxTjX0Z6u3W+e+Ja64230Si5owSUr7mAz/x0OhB4
+/OZrDODsfAvAkCIJzjH6SddeHxwrsxDKU/YH2VM0rhvkUIky1ucdCmgfEgikrQ1weTgLuESG5k+y
+s7WyXSradtEtxAAXSJwa2O1nLWRhRR5kOvatUbC+aHGjiqUUEmh36IrVC07V3JE3HtuNFLEcw6oX
+x6rpnT3rzWEsQQ/ozGmuNc5YuPiwenO5I4c1yg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIIYDCCBkigAwIBAgIQW9Z4/qrvvLbGCCeFqxiLyDANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc0MB4X
+DTE2MDcyODAwMDAwMFoXDTE3MDcyNzIzNTk1OVowgfYxCzAJBgNVBAYTAkJSMRMwEQYDVQQKFApJ
+Q1AtQnJhc2lsMQswCQYDVQQIEwJNRzEfMB0GA1UEBxQWU0FPIFNFQkFTVElBTyBETyBPRVNURTE2
+MDQGA1UECxQtU2VjcmV0YXJpYSBkYSBSZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYw
+FAYDVQQLFA1SRkIgZS1DTlBKIEExMSUwIwYDVQQLFBxBdXRlbnRpY2FkbyBwb3IgQVIgUFJJU01J
+TkFTMS0wKwYDVQQDEyRBVklWQVIgQUxJTUVOVE9TIExUREE6NDI4MTYxMDgwMDAxMDUwggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC+PEJ+R+z6TiCTVZ1ClS1ZnpobTfDLnef0TbXk3X5A
+RLucoU30pcenUxg9RrjLAr/dKX5GRoDpxboxJujbVibMQd6VrYQFN+xOSm2JzqSeN48oA3fJu3Y8
+RHio6BbMpSlzXqFJDC1YECDps8Ie8DJ2De1G2AaJSkq8Z1TV2vmBti7VdYRkQbHOQljRnKLVn6CK
+sLTYrWGT8ZYqOd9pk6+6DkcpKnbjaM8CjVe6B14+S8s/hxLwhVQVaTrjlIzVHluqfyzolzusj5VE
+hbAwtFN5BK6lT3gapEDQbo9eGlIwDXpwBb4Nh3Qst4witvyEawMjYXlqU3zBjHI/FK0vwsinAgMB
+AAGjggNlMIIDYTCBygYDVR0RBIHCMIG/oD0GBWBMAQMEoDQEMjEzMDIxOTUyMTkzODQzMjc2MjAw
+MDAwMDAwMDAwMDAwMDAwMDAwMTMxNjQzM1NTUE1HoCsGBWBMAQMCoCIEIEFOVE9OSU8gQ0FSTE9T
+IFZBU0NPTkNFTE9TIENPU1RBoBkGBWBMAQMDoBAEDjQyODE2MTA4MDAwMTA1oBcGBWBMAQMHoA4E
+DDAwMDAwMDAwMDAwMIEddHJpYnV0YXJpby5sdXNhQGF2aXZhci5jb20uYnIwCQYDVR0TBAIwADAf
+BgNVHSMEGDAWgBQukerWbeWyWYLcOIUpdjQWVjzQPjAOBgNVHQ8BAf8EBAMCBeAwfwYDVR0gBHgw
+djB0BgZgTAECAQwwajBoBggrBgEFBQcCARZcaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNv
+bS5ici9yZXBvc2l0b3Jpby9kcGMvQUNfQ2VydGlzaWduX1JGQi9EUENfQUNfQ2VydGlzaWduX1JG
+Qi5wZGYwggEWBgNVHR8EggENMIIBCTBXoFWgU4ZRaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWdu
+LmNvbS5ici9yZXBvc2l0b3Jpby9sY3IvQUNDZXJ0aXNpZ25SRkJHNC9MYXRlc3RDUkwuY3JsMFag
+VKBShlBodHRwOi8vaWNwLWJyYXNpbC5vdXRyYWxjci5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FD
+Q2VydGlzaWduUkZCRzQvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL3JlcG9zaXRvcmlvLmlj
+cGJyYXNpbC5nb3YuYnIvbGNyL0NlcnRpc2lnbi9BQ0NlcnRpc2lnblJGQkc0L0xhdGVzdENSTC5j
+cmwwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIGbBggrBgEFBQcBAQSBjjCBizBfBggr
+BgEFBQcwAoZTaHR0cDovL2ljcC1icmFzaWwuY2VydGlzaWduLmNvbS5ici9yZXBvc2l0b3Jpby9j
+ZXJ0aWZpY2Fkb3MvQUNfQ2VydGlzaWduX1JGQl9HNC5wN2MwKAYIKwYBBQUHMAGGHGh0dHA6Ly9v
+Y3NwLmNlcnRpc2lnbi5jb20uYnIwDQYJKoZIhvcNAQELBQADggIBAHMcdu+7uE1Gp62qlj0wX5KS
+HRSbLRYQ+fyFP+dGfWvABiCuAgpaszag/Lq3jHQ6DViOIWG7C6bKR8kWXLQ+f9TchGzyhy1hh9+n
+h0ZjziMLJe47M4fMZxA1P89VatDBh+Dt4tONsHwnUp92KMahtVLrQQPQ9kn1q/aR1C/m0ezon63t
+3TbQg6WuOgd78QMUtPFuVMXklvZoCc/bNv1EAcl1dQ28XOTk8xLAAx4u23UqzTR+8fnNu1GIUAWY
+urcFy5XqKeCSDJhhJ9x9DG3mFLVZ3pnE1qZmvWnLxwplANKwKwnC1EJoOv0dBywl3YfXf3vY0Cd9
+qaq26kc0GiqZfBFs96E0vk9f3MywYUunPMLocjRpbfIZxC1oHXP7kgtQIcI093kr8+fC2Lb7d3qS
+dQ/HV5Qu++8mPI98nHXbH4OOKalfXiGJqjppI3QiqrNASnCvtCpKIjCLmxnMC0wwqs6LXIyitLWH
+I0cqCO2tCt8YD9oG3/8SRsd987tASseiy7y9rbX2c0VnrXgEUDCQWzXbBNUa0P4DxCv6MtfpDdoX
+5NDm3TU2KkMd8k7+7P1ffq1xD5PgL5+g0p/u9I7b7Bl42xhOviZNh21C+P4y4+RXWof4TRjHZlEa
+J0+uLiOTuj78Cx1Chyyv26yOb2WfRlQU8QhyUMpQBdiFtCuPW/+A</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="3.10"><infProt Id="ID131172430124103">
+  <tpAmb>1</tpAmb>
+  <verAplic>14_0_15</verAplic>
+  <chNFe>31170142816108000520550010000468021733208441</chNFe>
+  <dhRecbto>2017-01-18T21:36:27-02:00</dhRecbto>
+  <nProt>131172430124103</nProt>
+  <digVal>V/9FXleyU5LbWeFYPsHSz2p8zw8=</digVal>
+  <cStat>100</cStat>
+  <xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt></protNFe></nfeProc>

@@ -1,0 +1,49 @@
+<nfeProc versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe versao="3.10" Id="NFe31170102089969001340550010000611781862727953"><ide><cUF>31</cUF><cNF>86272795</cNF><natOp>Vnd prod.est.opr.c/pr.suj.reg.sub.trib.cnd.sub.tri</natOp><indPag>1</indPag><mod>55</mod><serie>1</serie><nNF>61178</nNF><dhEmi>2017-01-20T22:46:18-02:00</dhEmi><tpNF>1</tpNF><idDest>2</idDest><cMunFG>3127701</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>3</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>9</indPres><procEmi>0</procEmi><verProc>3.10</verProc></ide><emit><CNPJ>02089969001340</CNPJ><xNome>Laticinios Bela Vista Ltda</xNome><xFant>GOVERNADOR VALADARES</xFant><enderEmit><xLgr>Rodovia BR 259 - Km 152</xLgr><nro>S/N</nro><xBairro>ZONA RURAL</xBairro><cMun>3127701</cMun><xMun>Governador Valadares</xMun><UF>MG</UF><CEP>35104000</CEP><xPais>Brasil</xPais><fone>553330213615</fone></enderEmit><IE>0010993550258</IE><IEST>92029654</IEST><IM>064681-0</IM><CNAE>1234567</CNAE><CRT>3</CRT></emit><dest><CNPJ>11037284000107</CNPJ><xNome>BOMFRIOS COM. DE ALIM. LTDA</xNome><enderDest><xLgr>AV. 22 DE MAIO, LT. 04 QD. 06</xLgr><nro>2856</nro><xBairro>LOT. STO EXPEDITO</xBairro><cMun>3301900</cMun><xMun>ITABORAI</xMun><UF>RJ</UF><CEP>24812516</CEP><cPais>1058</cPais><xPais>Brasil</xPais><fone>2126351177</fone></enderDest><indIEDest>1</indIEDest><IE>78815655</IE><email>pirasap2015@gmail.com;ibituruna@coopertral.com.br</email></dest><det nItem="1"><prod><cProd>000000000000010301</cProd><cEAN>7898215151906</cEAN><xProd>LEITE INTEGRAL PIRACANJUBA 1L BASE</xProd><NCM>04012010</NCM><CEST>1701600</CEST><CFOP>6401</CFOP><uCom>CX</uCom><qCom>792.0000</qCom><vUnCom>24.8400000000</vUnCom><vProd>19673.28</vProd><cEANTrib /><uTrib>CX</uTrib><qTrib>792.0000</qTrib><vUnTrib>24.8400000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><vBC>19673.28</vBC><pICMS>12.0000</pICMS><vICMS>2360.79</vICMS><modBCST>4</modBCST><vBCST>24548.32</vBCST><pICMSST>18.0000</pICMSST><vICMSST>2548.87</vICMSST></ICMS10></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>53</CST></IPINT></IPI><PIS><PISNT><CST>06</CST></PISNT></PIS><COFINS><COFINSNT><CST>06</CST></COFINSNT></COFINS></imposto><infAdProd>ICMS ST Retido nos Termos do Protocolo ICMS 188 de 11.12.2009 Combinado com Convenio 81\1993</infAdProd></det><det nItem="2"><prod><cProd>000000000000010302</cProd><cEAN>7898215151920</cEAN><xProd>LEITE DESNATADO PIRACANJUBA 1L BASE</xProd><NCM>04011010</NCM><CEST>1701600</CEST><CFOP>6401</CFOP><uCom>CX</uCom><qCom>198.0000</qCom><vUnCom>24.8400000000</vUnCom><vProd>4918.32</vProd><cEANTrib /><uTrib>CX</uTrib><qTrib>198.0000</qTrib><vUnTrib>24.8400000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><vBC>4918.32</vBC><pICMS>12.0000</pICMS><vICMS>590.20</vICMS><modBCST>4</modBCST><vBCST>6137.08</vBCST><pICMSST>18.0000</pICMSST><vICMSST>637.22</vICMSST></ICMS10></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>53</CST></IPINT></IPI><PIS><PISNT><CST>06</CST></PISNT></PIS><COFINS><COFINSNT><CST>06</CST></COFINSNT></COFINS></imposto><infAdProd>ICMS ST Retido nos Termos do Protocolo ICMS 188 de 11.12.2009 Combinado com Convenio 81\1993</infAdProd></det><total><ICMSTot><vBC>24591.60</vBC><vICMS>2950.99</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>30685.40</vBCST><vST>3186.09</vST><vProd>24591.60</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>27777.69</vNF></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CNPJ>86442720000394</CNPJ><xNome>COOP. RIOBRANQUENSE DE TRANSP.</xNome><IE>7208816380001</IE><xEnder>AV. RIO BAHIA</xEnder><xMun>GOVERNADOR VALADARES</xMun><UF>MG</UF></transporta><veicTransp><placa>KFA8528</placa><UF>RJ</UF></veicTransp><vol><qVol>990</qVol><esp>CX</esp><pesoL>12288.672</pesoL><pesoB>12671.208</pesoB><lacres><nLacre>0</nLacre></lacres></vol></transp><infAdic><infAdFisco>ICMS ST Retido nos Termos do Protocolo ICMS 188 de 11.12.2009</infAdFisco><infCpl>Pedido Interno:0000211342 ID da Carga:0020151776 Remessa:0080237533 Codigo Cliente:0001003749 Lacre(s):38159 / 38153 / 38111 / 38104 - Nao aceitamos avarias de transportes apos a descarga e assinatura do canhoto da nota fiscal - ICMS ST Retido nos Termos do Protocolo ICMS 188 de 11.12.2009 - Combinado com Convenio 81\1993</infCpl></infAdic></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFe31170102089969001340550010000611781862727953"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>Ol/8+imfDzHS/qMakIBg8at8SIA=</DigestValue></Reference></SignedInfo><SignatureValue>AspAUJaB2NaZJtBrs5CJh3dmhew7Nv0uiipZX/MXbK6DrP0BJaQdc7yUJugcM+y01TcAqrChjEUV
+JXdwZji3aSGgeSf3z9cqfA3KaLVmvkLenetudnxWaZHuUPuUdy+haVRrU5fnRQS81yGb0BVxf7Nm
+yUVUXwGbYLq03f2bfeY3WSh2gXO3PizSrVOuFE1XpXaRB1wjifZhSZ1TCunHfyyuS2AhxVPlK9Vn
+hNAbEC08vuKv2Nm6a1tAHXWd7KMRJU0lc/ADL2USjM0T+kaiZwk8BPDt3/tYxfHvbbR12E9DHdVX
+HZewvU+EDamQmrFO1w8TClBsHFXj+xth7vPzWQ==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIH7jCCBdagAwIBAgIIH+Y/2K3S6ygwDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEZMBcGA1UEAxMQQUMgU0VSQVNBIFJGQiB2MjAeFw0xNjAzMDcxODAy
+MDBaFw0xNzAzMDcxODAyMDBaMIHXMQswCQYDVQQGEwJCUjELMAkGA1UECBMCR08xEDAOBgNVBAcT
+B0dPSUFOSUExEzARBgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVj
+ZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECxMNUkZCIGUtQ05QSiBBMTEQMA4G
+A1UECxMHQVIgQ05ETDEyMDAGA1UEAxMpTEFUSUNJTklPUyBCRUxBIFZJU1RBIExUREE6MDIwODk5
+NjkwMDAxMDYwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCKuIbORIcj32VAxCAtv2fI
+Aj7yJmbOrku62tbMQ0fEz4BRN+Nd61TpCyznUkLVlWnkYTrVlZgZRMdfZBAeM7XlI1lP17CcL3KB
+AenVdDg70Qck1hvm1JgIKVDzbe8pgQnoVpEGKVMhGNziDwNsSPop6zqd+GvcinMVf+s01TMFgJFm
+TwaIpngmdeAq7h6GK74SLSHrtwsEnGUi2T0HOxTbMg3FnjTuRT3jMWmdsBnkRylDg9HiVL67u//J
+KDXSojdh6/4BUTOL9KavnZIHgJDutG3ZAVdlCk/Big2nz6ZwFQ2w/dX+rAa1HuE6I4n56Rm2RcQX
+4GiyAUgG2TMGAI9DAgMBAAGjggMdMIIDGTCBmQYIKwYBBQUHAQEEgYwwgYkwSAYIKwYBBQUHMAKG
+PGh0dHA6Ly93d3cuY2VydGlmaWNhZG9kaWdpdGFsLmNvbS5ici9jYWRlaWFzL3NlcmFzYXJmYnYy
+LnA3YjA9BggrBgEFBQcwAYYxaHR0cDovL29jc3AuY2VydGlmaWNhZG9kaWdpdGFsLmNvbS5ici9z
+ZXJhc2FyZmJ2MjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFLKgxD1GnnzIhWwIHhAylGVGcEFzMHEG
+A1UdIARqMGgwZgYGYEwBAgENMFwwWgYIKwYBBQUHAgEWTmh0dHA6Ly9wdWJsaWNhY2FvLmNlcnRp
+ZmljYWRvZGlnaXRhbC5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL2RlY2xhcmFjYW8tcmZiLnBkZjCB
+8wYDVR0fBIHrMIHoMEqgSKBGhkRodHRwOi8vd3d3LmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIv
+cmVwb3NpdG9yaW8vbGNyL3NlcmFzYXJmYnYyLmNybDBEoEKgQIY+aHR0cDovL2xjci5jZXJ0aWZp
+Y2Fkb3MuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJhc2FyZmJ2Mi5jcmwwVKBSoFCGTmh0dHA6
+Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xjci9TZXJhc2EvcmVwb3NpdG9yaW8vbGNy
+L3NlcmFzYXJmYnYyLmNybDAOBgNVHQ8BAf8EBAMCBeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsG
+AQUFBwMEMIG2BgNVHREEga4wgauBHkNFU0FSLkhFTE9VQFBJUkFDQU5KVUJBLkNPTS5CUqAWBgVg
+TAEDAqANEwtDRVNBUiBIRUxPVaAZBgVgTAEDA6AQEw4wMjA4OTk2OTAwMDEwNqA9BgVgTAEDBKA0
+EzIzMDA2MTk2MTAzNDc0MDYzODYzMDAwMDAwMDAwMDAwMDAwMDAwMDA3NjU4MDhTU1BHT6AXBgVg
+TAEDB6AOEwwwMDAwMDAwMDAwMDAwDQYJKoZIhvcNAQELBQADggIBABoU8BNyxP4Zi+6UrqxNj0zS
+63jqvaHJjy8CqV0boPuGCmnID6V0jRFwVAjlJmlofhyyE+aefjBwx14JZufZX+FoONCFGiy8iD3n
+HUTberr1NANWEth3ak0wLe3K+FMGovvuWgGFgzDcXh9VihVj7sFCIlEk5TqpbPb9eQudv3mGA7sP
+T9ycsEV2QyZqt9ZmX9JD/xbHOFZg/AzAolQUbKT9GLYdc/2MMDs01gHyAGZkXOdhwcODAIgqBvFy
+5u0PnGC+qEbAj9OQy3P3BoPlVsXoEQAoAzfEHUifVyNP+7c+ulnT2IMzXkHuSChKJ3DrweYoQIFB
+Txqxuh1vdAlZrJ5o6uc+Pa/AlRd/KM0L40mpOkk+U/iZpy/TrpEMWGyo85dAcikEiMCRl6XTvKac
+t9f9VeYKAdc8DYKsTurjMWEhwszorbtUSf8+1qF0K9dOGJi7D9+bgyy+Ao6uTsROM0WOv66rdGrZ
+dAiHsLoYmJadbJ3wd7fysHL6gzcvQgiSrcQDcptvn/LtYh9cx56/09KO4nYY8pFPmifANJbMUpEs
+91iXcvFdo/T6ptHYJyENBDwkUjd5kCeORdOdx+DgsmM64VcCTSiHF7erZntvp80v2NxNCHQhXpmF
+mlCRfLuBXjlhWZ6iej9O4VuGpLw99hIQypC/euzJ+DyqIVzy7fxK</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="3.10"><infProt Id="ID131172432658668">
+  <tpAmb>1</tpAmb>
+  <verAplic>14_0_15</verAplic>
+  <chNFe>31170102089969001340550010000611781862727953</chNFe>
+  <dhRecbto>2017-01-20T22:46:03-02:00</dhRecbto>
+  <nProt>131172432658668</nProt>
+  <digVal>Ol/8+imfDzHS/qMakIBg8at8SIA=</digVal>
+  <cStat>100</cStat>
+  <xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt></protNFe></nfeProc>

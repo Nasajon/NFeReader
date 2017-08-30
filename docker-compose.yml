@@ -1,0 +1,26 @@
+version: "2.0"
+
+services:
+   data:
+       image: silintl/data-volume:latest
+       volumes:
+           - ./:/var/www/html
+    
+   builder:
+       image: nasajon/php-node
+       volumes:
+           - ./:/nfe
+       working_dir: /nfe
+       command: php -f readerNFe.php
+       mem_limit: 512m
+
+   composer:
+       image: composer:latest
+       volumes_from:
+           - data
+       volumes:
+           - ~/.ssh/:/root/.ssh/
+       env_file:
+           - ./local.env
+       working_dir: /var/www/html
+       command: composer install --no-plugins --no-scripts --prefer-dist --ignore-platform-reqs

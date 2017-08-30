@@ -1,0 +1,95 @@
+<procEventoNFe versao="1.00">
+	<evento versao="1.00">
+		<infEvento Id="ID1101103117050410700700067255001000019368605051597201">
+			<cOrgao>31</cOrgao>
+			<tpAmb>1</tpAmb>
+			<CNPJ>04107007000672</CNPJ>
+			<chNFe>31170504107007000672550010000193686050515972</chNFe>
+			<dhEvento>2017-05-23T10:21:46-03:00</dhEvento>
+			<tpEvento>110110</tpEvento>
+			<nSeqEvento>1</nSeqEvento>
+			<verEvento>1.00</verEvento>
+			<detEvento versao="1.00">
+				<descEvento>Carta de Correcao</descEvento>
+				<xCorrecao>VOLUME CORRETO 10 CAIXAS NF0019368</xCorrecao>
+				<xCondUso>A Carta de Correcao e disciplinada pelo paragrafo 1o-A do art. 7o do Convenio S/N, de 15 de dezembro de 1970 e pode ser utilizada para regularizacao de erro ocorrido na emissao de documento fiscal, desde que o erro nao esteja relacionado com: I - as variaveis que determinam o valor do imposto tais como: base de calculo, aliquota, diferenca de preco, quantidade, valor da operacao ou da prestacao; II - a correcao de dados cadastrais que implique mudanca do remetente ou do destinatario; III - a data de emissao ou de saida.</xCondUso>
+			</detEvento>
+		</infEvento>
+		<Signature:Signature xmlns:Signature="http://www.w3.org/2000/09/xmldsig#" xmlns="http://www.w3.org/2000/09/xmldsig#">
+			<SignedInfo>
+				<CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+				<SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+				<Reference URI="#ID1101103117050410700700067255001000019368605051597201">
+					<Transforms>
+						<Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+						<Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+					</Transforms>
+					<DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+					<DigestValue>RwTPfEXJJlZJ4hJiNpu0PEOdqAs=</DigestValue>
+				</Reference>
+			</SignedInfo>
+			<SignatureValue>OWgLFg6pO91qCbViuZIqljivL2rm7fOy9y2JngqSNbcA/XNqRnc8JjT4bUetJhGjUBPHfLBbP+aZ
+nCE4bkYFQxMenv07UhjvcdaI+VUqPE8K8obQL9qRih8Bwi8WrY04+BFRvitoXtTEUwKbsoRJWy2n
+ZSrEZw8ckYXQYbgJqfot1c3o06jJr+WqxeWrLvO7UESCvyhzUR/Da8mn1w/mEzAol8iiDDf/uEpA
+MemRHhaXgqUsYRk4P6R98VVsQrfnF8qwjqeQcpUgtLEruQGRyDwxRG1FYThS2KGmGnbnXKtHa2Of
+31HHXhszNc6lUv4hAZowEIsQNfwPJFBPYOmuww==</SignatureValue>
+			<KeyInfo>
+				<X509Data>
+					<X509Certificate>MIIICTCCBfGgAwIBAgIIEudSy07CzmwwDQYJKoZIhvcNAQELBQAwcTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEVMBMGA1UEAxMMQUMgVkFMSUQgUkZCMB4XDTE2MDcwNDEzNDY0OVoX
+DTE3MDcwNDEzNDY0OVowgekxCzAJBgNVBAYTAkJSMQswCQYDVQQIEwJTUDEQMA4GA1UEBxMHSlVO
+RElBSTETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEExMRMwEQYDVQQL
+EwpBUiBQUk9OT1ZBMUEwPwYDVQQDEzhTRUNVUklUWSBTWVNURU1TIFNPTFVUSU9OUyBDT01FUkNJ
+QUwgTFREQTowNDEwNzAwNzAwMDI0OTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKQc
+xd6vX2+5qvsj14OI8pPtzLbYWIYrjnSwUevV02hMHZjJNObAnvD9cEdxyN1+7cFsgrgKMNcLIiks
+mnJM9KwfEyRClbwupVfkuDzzQIhIFHbHu/0GkqXHNTS7JdyeBsgyZnCtbLr2vwf7KFPcuAn/6Wri
+YKUr7ObPHGFBcEcJMWoIUEZpwohENBPC7tFU5ivfrgBT+2F+oXvfEW8968/iUOVOuSTN+49CZrnJ
+sJCDSCuJEZ+Oinq9Uvc3RRiLD3BKB8UDQxHRYJSiAqnuZG56MWj2lJPyZYf/D1NI5K3dqrOfBTk9
+pDhUFYapTK9fIOL0ysaFylHx+VRboSQ8qhsCAwEAAaOCAyowggMmMIGaBggrBgEFBQcBAQSBjTCB
+ijBVBggrBgEFBQcwAoZJaHR0cDovL2ljcC1icmFzaWwudmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5i
+ci9hYy12YWxpZHJmYi9hYy12YWxpZHJmYnYyLnA3YjAxBggrBgEFBQcwAYYlaHR0cDovL29jc3Au
+dmFsaWRjZXJ0aWZpY2Fkb3JhLmNvbS5icjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFEe5CFnYQvaS
+/Pd8FXwmgEpFkX6fMG4GA1UdIARnMGUwYwYGYEwBAgElMFkwVwYIKwYBBQUHAgEWS2h0dHA6Ly9p
+Y3AtYnJhc2lsLnZhbGlkY2VydGlmaWNhZG9yYS5jb20uYnIvYWMtdmFsaWRyZmIvZHBjLWFjLXZh
+bGlkcmZiLnBkZjCCAQEGA1UdHwSB+TCB9jBToFGgT4ZNaHR0cDovL2ljcC1icmFzaWwudmFsaWRj
+ZXJ0aWZpY2Fkb3JhLmNvbS5ici9hYy12YWxpZHJmYi9sY3ItYWMtdmFsaWRyZmJ2Mi5jcmwwVKBS
+oFCGTmh0dHA6Ly9pY3AtYnJhc2lsMi52YWxpZGNlcnRpZmljYWRvcmEuY29tLmJyL2FjLXZhbGlk
+cmZiL2xjci1hYy12YWxpZHJmYnYyLmNybDBJoEegRYZDaHR0cDovL3JlcG9zaXRvcmlvLmljcGJy
+YXNpbC5nb3YuYnIvbGNyL1ZBTElEL2xjci1hYy12YWxpZHJmYnYyLmNybDAOBgNVHQ8BAf8EBAMC
+BeAwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIG2BgNVHREEga4wgauBHmVsaWV0ZS5w
+b3NzYW5pQGdvbGRuZXdzLmNvbS5icqA4BgVgTAEDBKAvBC0zMTEwMTk2ODEwNzQ1MzEzODg0MDAw
+MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDCgGwYFYEwBAwKgEgQQTFVJWiBQQVVMTyBHUkVDT6AZBgVg
+TAEDA6AQBA4wNDEwNzAwNzAwMDI0OaAXBgVgTAEDB6AOBAwwMDAwMDAwMDAwMDAwDQYJKoZIhvcN
+AQELBQADggIBAH2b3qKdhDk/DyKVnX2z7oMTWeH+BxtPhjPeduOEiy+pee6SLRJ1mxQLKxW6nVt8
+DnivnMw8schegzzDS3RmkTnuDtW67fe7IOrlcziZr1FuSB2Ncuytqx25lPVe8Yd7FX2hGZsaduTQ
+bsYMvlYh8lRQCeuVQcAHoDhItWgzHkLyw71+g8MkhwsItGiRZ9D9eRUxt5VRbbS7p22rewfjot3N
+zk6bo4x9Q0lfHjMoZ3m29Pf1+kSTTAqYAJKmPJ3kx31YZBtbKz08dvHnz/XU5misMIsqE2U0qPJ6
+jvnTJmv6A56/ZMWhH1hpC/HJm7V8KvEKZ4/hX16/QbfqdUc1DPJIgsRgrBPvFpFG0HXuk9gaE1ni
+oMHCTNogjN4uhOWVo/X6nqgqdqY0Ib3gHhBvnZsxu2eCLUpcWRPk53YOwmWXWRFwe/cjaCfV3oP7
+cNh83MU6+Kgxr9xfZVMhndXEcyV9RQrkUEdTDyg709g4Q7A9XJFgNIC9UYyTldV7kHp5LiBEBT3n
+TKj0PioM2ndNt978lOTWvfLvTOJiB62kwBFnROD82u9FWVbMbjOwUlusn14ntsFvAFNGWRJlmYDo
+AxlhGq2G6Bzdf0p8xAR+64ULHwuDdpPVMTSxRk75H6R36RR5kWVhY+O/csF9axovmxel8aOuDcJx
+QD15+MKDn6qX</X509Certificate>
+				</X509Data>
+			</KeyInfo>
+		</Signature:Signature>
+	</evento>
+	<retEvento versao="1.00">
+		<infEvento Id="ID131172560103211">
+			<tpAmb>1</tpAmb>
+			<verAplic>14_0_28</verAplic>
+			<cOrgao>31</cOrgao>
+			<cStat>135</cStat>
+			<xMotivo>Evento registrado e vinculado a NF-e</xMotivo>
+			<chNFe>31170504107007000672550010000193686050515972</chNFe>
+			<tpEvento>110110</tpEvento>
+			<xEvento>CARTA DE CORRECAO</xEvento>
+			<nSeqEvento>1</nSeqEvento>
+			<CNPJDest>30855886000116</CNPJDest>
+			<dhRegEvento>2017-05-23T10:22:28-03:00</dhRegEvento>
+			<nProt>131172560103211</nProt>
+		</infEvento>
+	</retEvento>
+</procEventoNFe>

@@ -1,0 +1,53 @@
+<html>
+    <div class="container"> 
+        <h1>
+            Bem vindo ao PrototipoMda
+        </h1>
+        <div>
+            <p>Essa é uma aplicação demo para demonstrar como uma aplicação gerada pelo MdaPhpTansformer pode ser utilizada e/ou modificada  </p>
+        </div>
+
+        <div>
+            <h3>Requisitos</h3>
+            <ul>
+                <li>PHP <b>5.6.30</b></li>
+                <li>NodeJs <b>6.11.0</b></li>
+                <li>Json-server <i>https://github.com/typicode/json-server</i></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Primeiros passos</h3>
+            <ul>
+                <li>Na raiz do projeto, execute o comando <b>./prepareEnvironment.sh</b> para preparar o ambiente</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Incluíndo um Novo Caso de Uso na Aplicação </h3>
+            <p>
+                [caminho do projeto] = Caminho absoluto da pasta do projeto (exemplo: /var/www/hatml/PrototipoMda).
+            </p>
+            <ul>
+                <li>Coloque o arquivo xml referente ao novo caso de uso na pasta <b>src/xmls</b></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Estendendo um Template </h3>
+            <ul>
+                <li>Coloque o template na pasta  <b>src/view</b></li>
+            </ul>
+        </div>
+        <div>
+            <h3>Incluindo arquivos .js </h3>
+            <ul>
+                <li>Coloque o template na pasta  <b>src/js</b></li>
+                <li>Inclua o path do arquivo <b>webpack.config.js</b></li>
+                <li>Execute o comando na raiz <b>node_modules/webpack/bin/webpack.js</b> para atualizar o arquivo js utilizado pela aplicação incluindo as informações do arquivo .js recem adicionado</li>
+            </ul>
+        </div>
+        <div>
+            <h3>Configuração da aplicação</h3>
+            As configurações da aplicação encontram-se em <b>app.yml</b>
+
+        </div>
+    </div>
+</html>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe31170513689920000100550010000026281332710585" versao="3.10"><ide><cUF>31</cUF><cNF>33271058</cNF><natOp>VENDA</natOp><indPag>1</indPag><mod>55</mod><serie>1</serie><nNF>2628</nNF><dhEmi>2017-05-16T14:09:00-03:00</dhEmi><dhSaiEnt>2017-05-16T17:00:00-03:00</dhSaiEnt><tpNF>1</tpNF><idDest>2</idDest><cMunFG>3133105</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>5</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>0</indPres><procEmi>3</procEmi><verProc>3.10.91</verProc></ide><emit><CNPJ>13689920000100</CNPJ><xNome>BRIGABOA INDUSTRIA E COMERCIO DE CALCADOS LTDA - ME</xNome><xFant>BRIGABOA</xFant><enderEmit><xLgr>RUA MANOEL CARNEIRO</xLgr><nro>513</nro><xBairro>N SENHORA DE FATIMA</xBairro><cMun>3133105</cMun><xMun>Itanhandu</xMun><UF>MG</UF><CEP>37464000</CEP><cPais>1058</cPais><xPais>BRASIL</xPais></enderEmit><IE>0017773060010</IE><IM>001</IM><CNAE>1531901</CNAE><CRT>1</CRT></emit><dest><CNPJ>28512192000134</CNPJ><xNome>ISAAC DAS FECHADURAS LTDA</xNome><enderDest><xLgr>R MARECHAL DEODORO</xLgr><nro>192</nro><xBairro>CENTRO</xBairro><cMun>3303302</cMun><xMun>Niteroi</xMun><UF>RJ</UF><CEP>24030060</CEP><cPais>1058</cPais><xPais>BRASIL</xPais></enderDest><indIEDest>1</indIEDest><IE>80003080</IE></dest><det nItem="1"><prod><cProd>CFOP6101</cProd><cEAN /><xProd>BOTINA ELASTICO BICO PLASTICO 39/10 40/10 41/20 42/20 43/20 44/10</xProd><NCM>64051010</NCM><CFOP>6101</CFOP><uCom>PR</uCom><qCom>90.0000</qCom><vUnCom>34.8000000000</vUnCom><vProd>3132.00</vProd><cEANTrib /><uTrib>PR</uTrib><qTrib>90.0000</qTrib><vUnTrib>34.8000000000</vUnTrib><indTot>1</indTot></prod><imposto><ICMS><ICMSSN102><orig>0</orig><CSOSN>400</CSOSN></ICMSSN102></ICMS><PIS><PISNT><CST>07</CST></PISNT></PIS><COFINS><COFINSNT><CST>07</CST></COFINSNT></COFINS></imposto></det><total><ICMSTot><vBC>0.00</vBC><vICMS>0.00</vICMS><vICMSDeson>0.00</vICMSDeson><vFCPUFDest>0.00</vFCPUFDest><vICMSUFDest>0.00</vICMSUFDest><vICMSUFRemet>0.00</vICMSUFRemet><vBCST>0.00</vBCST><vST>0.00</vST><vProd>3132.00</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>0.00</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>0.00</vPIS><vCOFINS>0.00</vCOFINS><vOutro>0.00</vOutro><vNF>3132.00</vNF><vTotTrib>0.00</vTotTrib></ICMSTot></total><transp><modFrete>0</modFrete><transporta><CNPJ>01631590000113</CNPJ><xNome>TRANS CIRCUITO DAS AGUAS LTDA</xNome></transporta><vol><qVol>6</qVol><esp>CAIXAS</esp><pesoB>69.000</pesoB></vol></transp><cobr><dup><nDup>2628/1</nDup><dVenc>2017-06-13</dVenc><vDup>1044.00</vDup></dup><dup><nDup>2628/2</nDup><dVenc>2017-06-27</dVenc><vDup>1044.00</vDup></dup><dup><nDup>2628/3</nDup><dVenc>2017-07-11</dVenc><vDup>1044.00</vDup></dup></cobr><infAdic><infAdFisco>SUSPENSAO DO ICMS CONF. ANEXO III, ITEM 5, DECRETO 38104/96 SUSPENSAO DO IPI, ART. 301 DO RIPI, DECRETO 87.981/82          LOCAL DE ENTREGA: R VISCONDE DE SEPETIBA, 191, CENTRO, NITEROI, CEP 24020-206</infAdFisco></infAdic></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFe31170513689920000100550010000026281332710585"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>rHNsYdDA14gkELXZ7Qt6X187Nx4=</DigestValue></Reference></SignedInfo><SignatureValue>IrIKQNgk3YZVcwiFLsMmmrQ4e10cXV17FgOA3j6UpPymu6wqRAm2HfI+tDRmdJ4CO/HUHNBDBhg1
+xTIdsfb9HpzK9KBARTsTKtbxwPMZ1i41/IbfFPxcDZW8dM/pVR+bAJmmQb+sWkJ4uMRQyMtd11XG
+0kztxyuNQP1MPdEznuzR52iSmaDtMVJZe9MnCzGlzTWA7i7/cqqB83R9e95TcDyB7LEN8+aijGMs
+DTGJHJxweKkWpz8U0KG+9nfU3EjlXx3V4brqtH4fQ/cW88ubv+XOGbxztsj/AJzuA+/t8Sc+xbHo
+6y262CfG8fG4uLHJFEOIvotMWzu9ct9/Mvm3wg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIIEDCCBfigAwIBAgIIK2+QotnCTJowDQYJKoZIhvcNAQELBQAwdTELMAkGA1UEBhMCQlIxEzAR
+BgNVBAoTCklDUC1CcmFzaWwxNjA0BgNVBAsTLVNlY3JldGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFs
+IGRvIEJyYXNpbCAtIFJGQjEZMBcGA1UEAxMQQUMgU0VSQVNBIFJGQiB2MjAeFw0xNTEwMjEyMDAw
+MDBaFw0xODEwMjAyMDAwMDBaMIHvMQswCQYDVQQGEwJCUjELMAkGA1UECBMCTUcxEjAQBgNVBAcT
+CUlUQU5IQU5EVTETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBS
+ZWNlaXRhIEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRYwFAYDVQQLEw1SRkIgZS1DTlBKIEEzMRMw
+EQYDVQQLEwpBUiBDRVJUTkVUMUUwQwYDVQQDEzxMQVJKIElORFVTVFJJQSBFIENPTUVSQ0lPIERF
+IENBTENBRE9TIExUREEgTUU6MTM2ODk5MjAwMDAxMDAwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCjMVMYTuRj644YGc0UYnnXX+g41eCQDs1oiCOIgkxKeV+boR9R+SmmmdSR8OFlvMUU
+MgFiuYAUUeRMbGdtPxUk8AtFo5sqcRfyPEbLrClWqPFnOMsd7PKjkE3q/DfBr+IjlGSohqUiK2gg
+o5dAvSfnEKi17NToiPERK8EwDfVbYA75QGAQ+AsVWzlQdM+jYNOS0C0xziRZGliG7qeS+rmhBByB
+7e1JmKu3jAG2PSuoZqjn+EAyyZt4j9F8JSVKcl7CNQN7FtQHd6Ayu90VsGHd7RY4da2KSuqERY53
+RiglWoPmgNjncmAFgv5pwY62Tsr0N77uacK+W1FWfJMcWs9fAgMBAAGjggMnMIIDIzCBmQYIKwYB
+BQUHAQEEgYwwgYkwSAYIKwYBBQUHMAKGPGh0dHA6Ly93d3cuY2VydGlmaWNhZG9kaWdpdGFsLmNv
+bS5ici9jYWRlaWFzL3NlcmFzYXJmYnYyLnA3YjA9BggrBgEFBQcwAYYxaHR0cDovL29jc3AuY2Vy
+dGlmaWNhZG9kaWdpdGFsLmNvbS5ici9zZXJhc2FyZmJ2MjAJBgNVHRMEAjAAMB8GA1UdIwQYMBaA
+FLKgxD1GnnzIhWwIHhAylGVGcEFzMHEGA1UdIARqMGgwZgYGYEwBAgMKMFwwWgYIKwYBBQUHAgEW
+Tmh0dHA6Ly9wdWJsaWNhY2FvLmNlcnRpZmljYWRvZGlnaXRhbC5jb20uYnIvcmVwb3NpdG9yaW8v
+ZHBjL2RlY2xhcmFjYW8tcmZiLnBkZjCB8wYDVR0fBIHrMIHoMEqgSKBGhkRodHRwOi8vd3d3LmNl
+cnRpZmljYWRvZGlnaXRhbC5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL3NlcmFzYXJmYnYyLmNybDBE
+oEKgQIY+aHR0cDovL2xjci5jZXJ0aWZpY2Fkb3MuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9zZXJh
+c2FyZmJ2Mi5jcmwwVKBSoFCGTmh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xj
+ci9TZXJhc2EvcmVwb3NpdG9yaW8vbGNyL3NlcmFzYXJmYnYyLmNybDAOBgNVHQ8BAf8EBAMCBeAw
+HQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMIHABgNVHREEgbgwgbWBHU1BUkNFTE9WSUVJ
+UkEuUkNTQEhPVE1BSUwuQ09NoCEGBWBMAQMCoBgTFkpPU0UgUklWRUxJTk8gREEgU0lMVkGgGQYF
+YEwBAwOgEBMOMTM2ODk5MjAwMDAxMDCgPQYFYEwBAwSgNBMyMTcwMzE5NzE3NTIwMTI0MDYxNTAw
+MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDCgFwYFYEwBAwegDhMMMDAwMDAwMDAwMDAwMA0G
+CSqGSIb3DQEBCwUAA4ICAQBneGlIVpCfkFOnkPTGPVomLahLbgq8KvIR1td0LVDnpbhVPAon005d
+pm5t8FS46DANdqDi6QEDmgeuH/ck5zO9iIukM9DJGWdliQgrHe9jgtjUaKVgspJR7f6r49k2Rtk+
+mG/7qrHA61nwVVwjacl3xRmOG40JM6BVo3Snaxmo07L3APjghs2msXQFFMkio5gGk/2+iG/CE/P+
+Nr1K3+oYIs+VHQrbONxgyTVaw0SVqRRBIkYv5eQwuIbfy1fxI0yddKDMi46uF8zocYMQYn4TufBN
+08ADgSeFsNcZVd3PiIYprYg6XyzYxuSUdi8T9KkV2eFPIsDV+L6fVFoEhPhivTQs3fhlPAo2Uszo
+HfMgcR9nMM7YwPAesjr4kL2/XLPXlWTGu/6ylDQn8qTywI9y77lFoUf6joL1oRBsV1yt1O3hLR5B
+ezTL+IpZDbkVyoM7Sp+o410TCiAG26IVrjYK/6IpQ0MXgvUAn5R9FesOY5zjwIHgQpSO8VqE2w26
+6no5aRwsYhXX60nZUqRKVUbnNs2ykBYP1KEXtX7Y81JtHu9O5D+orRTM5IqKNGGwvtFTFxlobC8H
+7oHLRQYNI/eKloKno0oBQQrI4Txv5njYUpdjCx9ku7LsTwMIyG4LoMVExcoKR9qVWYzT1w9IWiGs
+UJ850BZlwHXr6miOPYCOMA==</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="3.10"><infProt Id="ID131172553231792">
+  <tpAmb>1</tpAmb>
+  <verAplic>14_0_27</verAplic>
+  <chNFe>31170513689920000100550010000026281332710585</chNFe>
+  <dhRecbto>2017-05-16T14:31:30-03:00</dhRecbto>
+  <nProt>131172553231792</nProt>
+  <digVal>rHNsYdDA14gkELXZ7Qt6X187Nx4=</digVal>
+  <cStat>100</cStat>
+  <xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt></protNFe></nfeProc>

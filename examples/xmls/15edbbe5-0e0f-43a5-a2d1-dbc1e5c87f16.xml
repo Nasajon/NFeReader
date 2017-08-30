@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?><nfeProc versao="3.10" xmlns="http://www.portalfiscal.inf.br/nfe"><NFe xmlns="http://www.portalfiscal.inf.br/nfe"><infNFe Id="NFe31170679655916000806550040001159831093717727" versao="3.10"><ide><cUF>31</cUF><cNF>09371772</cNF><natOp>6401-VENDA PROD. ESTABEL.(SUBST.TRIBUTARIA)</natOp><indPag>1</indPag><mod>55</mod><serie>4</serie><nNF>115983</nNF><dhEmi>2017-06-08T14:47:12-02:00</dhEmi><tpNF>1</tpNF><idDest>2</idDest><cMunFG>3157807</cMunFG><tpImp>1</tpImp><tpEmis>1</tpEmis><cDV>7</cDV><tpAmb>1</tpAmb><finNFe>1</finNFe><indFinal>0</indFinal><indPres>0</indPres><procEmi>0</procEmi><verProc>Oobj-DFe</verProc></ide><emit><CNPJ>79655916000806</CNPJ><xNome>CECRISA REVEST. CERAMICOS S.A.</xNome><enderEmit><xLgr>AV. DAS INDUSTRIAS,</xLgr><nro>5089</nro><xBairro>BICAS</xBairro><cMun>3157807</cMun><xMun>SANTA LUZIA</xMun><UF>MG</UF><CEP>33040130</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>3121384900</fone></enderEmit><IE>5789118590091</IE><CRT>3</CRT></emit><dest><CNPJ>10854266000155</CNPJ><xNome>BANHO BELLO DISTRIBUIDORA E MATERIAIS DE CONSTR. L</xNome><enderDest><xLgr>R MARECHAL DEODORO</xLgr><nro>160</nro><xBairro>CENTRO</xBairro><cMun>3303302</cMun><xMun>NITEROI</xMun><UF>RJ</UF><CEP>24030060</CEP><cPais>1058</cPais><xPais>BRASIL</xPais><fone>2135273000</fone></enderDest><indIEDest>1</indIEDest><IE>78814233</IE><email>nfe@casadasfechaduras.com.br</email></dest><det nItem="1"><prod><cProd>57363A</cProd><cEAN>7891285471851</cEAN><xProd>PP 60X60 R BIO TECH GR POL A4 8703 Cxs:7</xProd><NCM>69072100</NCM><CEST>1003000</CEST><CFOP>6401</CFOP><uCom>M2</uCom><qCom>10.01</qCom><vUnCom>75.6703297</vUnCom><vProd>757.46</vProd><cEANTrib>7891285471851</cEANTrib><uTrib>M2</uTrib><qTrib>10.01</qTrib><vUnTrib>75.6703297</vUnTrib><vDesc>22.72</vDesc><indTot>1</indTot><xPed>PEDIDO 8179</xPed><nItemPed>1</nItemPed><nFCI>EE85F72B-607F-413D-8C0D-598BF1F26966</nFCI></prod><imposto><ICMS><ICMS10><orig>0</orig><CST>10</CST><modBC>3</modBC><vBC>734.74</vBC><pICMS>12.00</pICMS><vICMS>88.17</vICMS><modBCST>4</modBCST><pMVAST>68.30</pMVAST><vBCST>1274.81</vBCST><pICMSST>20.00</pICMSST><vICMSST>166.79</vICMSST></ICMS10></ICMS><IPI><cEnq>999</cEnq><IPINT><CST>51</CST></IPINT></IPI><PIS><PISAliq><CST>01</CST><vBC>734.74</vBC><pPIS>1.65</pPIS><vPIS>12.12</vPIS></PISAliq></PIS><COFINS><COFINSAliq><CST>01</CST><vBC>734.74</vBC><pCOFINS>7.60</pCOFINS><vCOFINS>55.84</vCOFINS></COFINSAliq></COFINS></imposto></det><total><ICMSTot><vBC>734.74</vBC><vICMS>88.17</vICMS><vICMSDeson>0.00</vICMSDeson><vBCST>1274.81</vBCST><vST>166.79</vST><vProd>757.46</vProd><vFrete>0.00</vFrete><vSeg>0.00</vSeg><vDesc>22.72</vDesc><vII>0.00</vII><vIPI>0.00</vIPI><vPIS>12.12</vPIS><vCOFINS>55.84</vCOFINS><vOutro>0.00</vOutro><vNF>901.53</vNF></ICMSTot></total><transp><modFrete>1</modFrete><transporta><CNPJ>17122258000163</CNPJ><xNome>EXPRESSO RIO TRANSPORTES LTDA - ME</xNome><IE>257956816</IE><xEnder>R GALDINO JOSE DE BESSA</xEnder><xMun>TUBARAO</xMun><UF>SC</UF></transporta><vol><qVol>7</qVol><esp>CAIXAS</esp><marca>PORTINARI</marca><pesoL>206.500</pesoL><pesoB>213.241</pesoB></vol></transp><cobr><dup><nDup>01115983</nDup><dVenc>2017-07-06</dVenc><vDup>901.53</vDup></dup></cobr><infAdic><infCpl>DATA DE SAIDA DA MERC.VINCULADA A SOLICITACAO DO CLIENTE. VIDE CONHECIMENTO DE TRANSPORTE OU CARIMBO DA PORTARIA. Pedido:72023A Ped.Cliente:PEDIDO 8179.Entrega:R MARECHAL DEODORO,160- NITEROI RJ DEVOLUCOES SOMENTE COM REGISTRO E APROVACAO PREVIA PELO FONE 0800 701 7801 (HORARIO COMERCIAL). APOS EMBARQUE SE FOR CONSTATADO QUEBRA, FALTA OU DANOS NOS PRODUTOS, A RESPONSABILIDADE SERA DO TRANSPORTADOR. Proibida a entrega em local diferente do descrito na Nota Fiscal, duvidas ligue 08007017801A DUPLICATA NAO APRESENTADA ATE 48 HS DO VENCTO, CONTACTAR-NOS PELO FONE (0XX48) 3431-6217 E/OU FAX (0XX48) 3431-6010. ObsNF:PEDIDO 8179. Paletizado e Plastificado:NAO.Para emissao 2a.via de boleto:boleto@cecrisa.com.br DESCONTO de R$22,72 Ref.Acordo reembolso.. Aliquota interna reduzida p/12% cfe.Dec.44754/08 FOB PLUS 010047 X NITEROI R$ 186.61/TN +0.3% seguro sobre vlr NF p/carga fracionada + ICMS.</infCpl></infAdic></infNFe><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI="#NFe31170679655916000806550040001159831093717727"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>KnLF3xMCmeZwOyW5Mj3RQif584Q=</DigestValue></Reference></SignedInfo><SignatureValue>RseBrICYUjYB2Vp9LzSompC4539TapLCbyISE52BAlvhyoyivtmezGW34/QWVqBEOQqM1Xv5qcr9
+kivw29Ec6ak5u0G53lMt8UOejPniWQerrW7e+41WFNLGKZfH3UgEC82VqVb3BjefM4y2FXAnPDXR
+3LG80bqqc+GIe1JTbirJuEz/AegEBrK8KlgK/rJAvZP172SCAlp3T+zD25i6Uy7d6X4yCT1CcRo/
+WO4Y0WzqzXdqXZ3QLKj1DhH9xe8WJaDjJZ/0vmC8baGTAl36MsOrWFw3mS/y4y7v18D6YgsoJYif
+cZMQS6EhOlfhd85XAXoWY+2DKibNUyveCoTMtw==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIIRjCCBi6gAwIBAgIQDpOamGGvQ8xvePnFGMWPsDANBgkqhkiG9w0BAQsFADB4MQswCQYDVQQG
+EwJCUjETMBEGA1UEChMKSUNQLUJyYXNpbDE2MDQGA1UECxMtU2VjcmV0YXJpYSBkYSBSZWNlaXRh
+IEZlZGVyYWwgZG8gQnJhc2lsIC0gUkZCMRwwGgYDVQQDExNBQyBDZXJ0aXNpZ24gUkZCIEc0MB4X
+DTE2MDkyNjAwMDAwMFoXDTE3MDkyNTIzNTk1OVowgfExCzAJBgNVBAYTAkJSMRMwEQYDVQQKFApJ
+Q1AtQnJhc2lsMQswCQYDVQQIEwJTQzERMA8GA1UEBxQIQ1JJQ0lVTUExNjA0BgNVBAsULVNlY3Jl
+dGFyaWEgZGEgUmVjZWl0YSBGZWRlcmFsIGRvIEJyYXNpbCAtIFJGQjEWMBQGA1UECxQNUkZCIGUt
+Q05QSiBBMTEgMB4GA1UECxQXQXV0ZW50aWNhZG8gcG9yIEFSIEFDSUMxOzA5BgNVBAMTMkNFQ1JJ
+U0EgUkVWRVNUSU1FTlRPUyBDRVJBTUlDT1MgUyBBOjc5NjU1OTE2MDAwMTMwMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgJbXd9kUg8lrjeQEe6xcwvakq1xq8T8x6FVXulJPbRAJdyqe
+PAx4xUkAmCsKppiiPjQwFgqTgZZUNK8VmpewaBiif2+raKZwBvF+j9l+Lz9Ue/PPM5IfkmuE/9d0
+kiAYPyki6aicBIcVM2J/6jgeITVPEwt7RTp3AlYxMNhQIDJ7L80/zdrJWTTZub7gsJYhNI5zi7Lz
+bmLqxa2TgNUe3Rjiyyy4vM/FTelZ20H3i+4ADIoEqLokSODdQck37FxFtpw2hBhmpA45hUA51qAD
+nwkufomTU68/+jyac3/iEp6rMzPitVClWxrVXC7f3LqTF9h78FFZyLEgTnHmHH0q3QIDAQABo4ID
+UDCCA0wwgbUGA1UdEQSBrTCBqqA9BgVgTAEDBKA0BDIwMjEyMTk1ODQxNzkxNDQ0OTIwMDAwMDAw
+MDAwMDAwMDAwMDAwMDA3Mjg3NjNTU1BTQ6AhBgVgTAEDAqAYBBZKT1NFIFpJTU1FUk1BTk4gSlVO
+SU9SoBkGBWBMAQMDoBAEDjc5NjU1OTE2MDAwMTMwoBcGBWBMAQMHoA4EDDAwMDAwMDAwMDAwMIES
+ZmNkQGNlY3Jpc2EuY29tLmJyMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAULpHq1m3lslmC3DiFKXY0
+FlY80D4wDgYDVR0PAQH/BAQDAgXgMH8GA1UdIAR4MHYwdAYGYEwBAgEMMGowaAYIKwYBBQUHAgEW
+XGh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vZHBjL0FDX0Nl
+cnRpc2lnbl9SRkIvRFBDX0FDX0NlcnRpc2lnbl9SRkIucGRmMIIBFgYDVR0fBIIBDTCCAQkwV6BV
+oFOGUWh0dHA6Ly9pY3AtYnJhc2lsLmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vbGNyL0FD
+Q2VydGlzaWduUkZCRzQvTGF0ZXN0Q1JMLmNybDBWoFSgUoZQaHR0cDovL2ljcC1icmFzaWwub3V0
+cmFsY3IuY29tLmJyL3JlcG9zaXRvcmlvL2xjci9BQ0NlcnRpc2lnblJGQkc0L0xhdGVzdENSTC5j
+cmwwVqBUoFKGUGh0dHA6Ly9yZXBvc2l0b3Jpby5pY3BicmFzaWwuZ292LmJyL2xjci9DZXJ0aXNp
+Z24vQUNDZXJ0aXNpZ25SRkJHNC9MYXRlc3RDUkwuY3JsMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggr
+BgEFBQcDBDCBmwYIKwYBBQUHAQEEgY4wgYswXwYIKwYBBQUHMAKGU2h0dHA6Ly9pY3AtYnJhc2ls
+LmNlcnRpc2lnbi5jb20uYnIvcmVwb3NpdG9yaW8vY2VydGlmaWNhZG9zL0FDX0NlcnRpc2lnbl9S
+RkJfRzQucDdjMCgGCCsGAQUFBzABhhxodHRwOi8vb2NzcC5jZXJ0aXNpZ24uY29tLmJyMA0GCSqG
+SIb3DQEBCwUAA4ICAQC/mEc8SJ9oVPE9VCN1o1rdx9CjmUHZ0szJxmJWEYJmFGSvHgwEgitjXnXd
+bv59v80foeStM00cxlCculudUWPbhCO2wPPvGse+5eakmqtnN69i6CRsV2F3mPsV1Xe3l8qWfwMw
+ROOMLwnwhiQsPEdre1F3zOzME4BHchfxaWfs1M24zOwM5Zu1M+hlbe4DTIkXfpYmA2PijoSRkGnv
+SSdIgts82sMtIs/oJI5tjshaMsJXUfrac7aWDfHap3eOxxTXiL8E3WILT4DUN4NFdbZ4M7I/kp1G
+h4BdM8iqFoGjRbTaf3Acko89lP8VJk6PdiQzLdu+NcxlwmMgV5gMCQvi1DRMGiOnkE4rBQtAWmw4
+zW8AUNNWejqCmvFXRde+ECE2nV63hk20MDoRkBxA0LpjQ/EsN5HYyr0KhbSdpE4vuBzZdFHF+Ltd
+X/k3VwiKc8DfZ6RYEhlQh4UHe/X2q4Nwz7dcwNOdKduC7xrio7zNYPk8F9qRDheERuFG92SfJAAO
+xa+Sj5VRABjZDTgD47pdBe9XIPVc2UghWsx9lDW6HqMXhehmyemXtnYqdKv9UE8gJrAaeWcxoSvP
+nDZli54BQVbrPw3R11hNkW73hvIiKR6wptt908jXcVtmQKbrhVurieEyMjOI7hlBxh+cuozYdYDS
+4uF2rjRHCtICdeXbmw==</X509Certificate></X509Data></KeyInfo></Signature></NFe><protNFe versao="3.10"><infProt Id="ID131172577465084">
+  <tpAmb>1</tpAmb>
+  <verAplic>14_0_31</verAplic>
+  <chNFe>31170679655916000806550040001159831093717727</chNFe>
+  <dhRecbto>2017-06-08T14:47:46-03:00</dhRecbto>
+  <nProt>131172577465084</nProt>
+  <digVal>KnLF3xMCmeZwOyW5Mj3RQif584Q=</digVal>
+  <cStat>100</cStat>
+  <xMotivo>Autorizado o uso da NF-e</xMotivo>
+</infProt></protNFe></nfeProc>
