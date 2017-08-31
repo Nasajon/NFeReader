@@ -71,19 +71,19 @@ Possíveis objetos:
 
 ###### Principais métodos dos objetos citados acima:
 
-######## getBasicInfo()
+###### getBasicInfo()
 
 Tipo:array
 
 Retorna alguns atributos interpretados da NFe (olha seção de tags interpretadas)
 
-######## getJsonBasicInfo()
+###### getJsonBasicInfo()
 
 Tipo: json
 
 Semelhante ao getBasicInfo(), porém em formato json
 
-######## getJsonNFe()
+###### getJsonNFe()
 
 tipo: json
 
