@@ -2,7 +2,7 @@
  ------------
 ## NFes Suportadas:
 
-  NFe| Verses suportadas
+  NFe| Versões suportadas
 ------------ | -------------
 NFe | 3.10
 Averbação | 1.0
@@ -14,30 +14,51 @@ Averbação | 1.0
 
 #### Command line
 
+Na pasta do projeto execute:
+```bash
+   $  php bin/console.php nasajon:nfereader <caminho da nota NFe a ser lida>
+```
+O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
+
 #### Dentro do projeto
+###### Composer
+```
+"require": {
+        [...]
+        "nasajon/nfereader": "dev-master"
+    },
+[...]
+    "repositories":[
+    [...]
+        {
+            "type":"git",
+            "url":"https://github.com/Nasajon/NFeReader"
+        }
+    ]
+```
 
 ------------
 ## input e Outputs
 
-####Input
+#### Input
 
 Tipo: string 
 
 Conteúdo do arquivo a ser interpretado
 
-####Outputs
+#### Outputs
 
-###### getBrief()
+###### getBasicInfo()
 
 Tipo:array
 
-Retorna alguns atributos interpretados da NFe (olha seção ...)
+Retorna alguns atributos interpretados da NFe (olha seção de tags interpretadas)
 
-###### getJsonBrief()
+###### getJsonBasicInfo()
 
 Tipo: json
 
-Semelhante ao getBrief porém em formalto json
+Semelhante ao getBasicInfo(), porém em formato json
 
 ###### getJsonNFe()
 
@@ -48,9 +69,9 @@ Retorna todo conteúdo da nota como json.
 **Nota**: getJsonNFe() não interpreta a nota.
 
 ------------
-## Tags utilizadas na geração dos métodos getBrief() e getJsonBrief()
+## Tags interpretadas (retornada pelos métodos getBasicInfo() e getJsonBasicInfo())
 
-####NFe
+#### NFe
 
 * Id
 * nProt
@@ -60,9 +81,26 @@ Retorna todo conteúdo da nota como json.
 * infCpl
 * vNF
 * nNF
-* <...>
+Dados da empresa emissora:
+* xNome
+* CNPJ
+* xPais
+* UF
+* xMun
+Dados do destino
+* xNome
+* CNPJ
+* xPais
+* UF
+* xMun
+Dados da transportadora:
+* xNome
+* CNPJ/CPF
+Dados do produto:
+* xProd
+* CFOP
 
-####Averbação
+#### Averbação
 
 * Id
 * nProt
