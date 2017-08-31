@@ -73,7 +73,7 @@ Possíveis objetos:
 
 ###### getBasicInfo()
 
-Tipo:array
+Tipo: array
 
 Retorna alguns atributos interpretados da NFe (olha seção de tags interpretadas)
 
@@ -92,7 +92,7 @@ Retorna todo conteúdo da nota como json.
 **Nota**: getJsonNFe() não interpreta a nota.
 
 ------------
-## Tags interpretadas (retornada pelos métodos getBasicInfo() e getJsonBasicInfo())
+## Tags interpretadas 
 
 #### NFe
 
@@ -104,22 +104,30 @@ Retorna todo conteúdo da nota como json.
 * infCpl
 * vNF
 * nNF
+
 Dados da empresa emissora:
+
 * xNome
 * CNPJ
 * xPais
 * UF
 * xMun
+
 Dados do destino
+
 * xNome
 * CNPJ
 * xPais
 * UF
 * xMun
+
 Dados da transportadora:
+
 * xNome
 * CNPJ/CPF
+
 Dados do produto:
+
 * xProd
 * CFOP
 
