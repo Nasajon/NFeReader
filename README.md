@@ -40,13 +40,13 @@ O resultado sera a exibição do retorno dos três métodos principais : getJson
 
 + Método : load()
 
-- Tipo: static
+ - Tipo: static
    
-- Input: string (conteúdo do arquivo)
+ - Input: string (conteúdo do arquivo)
    
-- Output: objeto
+ - Output: objeto
    
-- Principais métodos do objeto retornado no output:
+ - Principais métodos do objeto retornado no output:
   
        getJsonNFe()
        getBasicInfo()
