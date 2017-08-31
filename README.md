@@ -33,7 +33,7 @@ Na pasta do projeto execute:
 ```bash
    $  php bin/console.php nasajon:nfereader <caminho/da/nota/NFe/a/ser/lida>
 ```
-O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
+O resultado será a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
 
 #### Dentro do projeto
  Classe: FactoryNFe
@@ -56,7 +56,7 @@ O resultado sera a exibição do retorno dos três métodos principais : getJson
 
 
 ------------
-## input e Outputs
+## Input e Outputs
 
 #### Input
 
@@ -65,20 +65,25 @@ Tipo: string
 Conteúdo do arquivo a ser interpretado
 
 #### Outputs
+Possíveis objetos:
+* NFe
+* AverbacaoNFe
 
-###### getBasicInfo()
+###### Principais métodos dos objetos citados acima:
+
+######## getBasicInfo()
 
 Tipo:array
 
 Retorna alguns atributos interpretados da NFe (olha seção de tags interpretadas)
 
-###### getJsonBasicInfo()
+######## getJsonBasicInfo()
 
 Tipo: json
 
 Semelhante ao getBasicInfo(), porém em formato json
 
-###### getJsonNFe()
+######## getJsonNFe()
 
 tipo: json
 
