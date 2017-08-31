@@ -8,7 +8,7 @@ use Nasajon\NFeReader\Exception\FileIsNotNFeException;
 
 class FactoryNFe{
     
-    const SUPPORTEDTYPES = ['NFe','procEventoNFe'];
+    const SUPPORTEDTYPES = ['NFe','procEventoNFe']; /*averbacao internamente na NFE é referida como procEventoNFe*/
     const SUPPORTEDVERSION = [
             'nfe'=>[ 3.10 ],
             'proceventonfe' => [ 1.00 ]];
@@ -20,7 +20,7 @@ class FactoryNFe{
      */
     public static function load($xmlContent){
         $xml = new Xml($xmlContent); 
-        $nftype = self::getNFType($xml); 
+        $nftype = self::getNFeType($xml); 
         if($nftype){
             $nftype = strtolower($nftype);
             $version =self::getVersion($xml, $nftype);
@@ -60,12 +60,12 @@ class FactoryNFe{
      * @param Xml $xml
      * @param float $version
      * @param string $nftype
-     * @return \Nasajon\NFeReader\Factory\NFeEvento
+     * @return \Nasajon\NFeReader\Factory\AverbacaoNFe
      */
     private static function loadNFeEventoVersion($xml, $version, $nftype){
         switch ($version){
             case 1.0:
-                $nfe = new NFeEvento($xml, $version, $nftype);
+                $nfe = new AverbacaoNFe($xml, $version, $nftype);
                 return $nfe;
         }
     }
@@ -75,7 +75,7 @@ class FactoryNFe{
      * @param Xml $xml 
      * @return string | false
      */
-    private static function getNFType($xml){
+    private static function getNFeType($xml){
         foreach (self::SUPPORTEDTYPES as $supportednf){ 
             if($xml->getTagValue($supportednf)){
                 return $supportednf;

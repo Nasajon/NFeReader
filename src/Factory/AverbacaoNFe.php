@@ -7,7 +7,7 @@ use \Nasajon\NFeReader\Xml;
 /**
  * Notas de evento de averbação
  */
-class NFeEvento extends AbstractNFe{
+class AverbacaoNFe extends AbstractNFe{
     
     private $id;
     private $nProt;
@@ -45,7 +45,23 @@ class NFeEvento extends AbstractNFe{
      * 
      * @return array
      */
-    public function getInfo(){
+    public function getBasicInfo(){
+        return array (
+            'id' => $this->id,
+            'cOrgao' => $this->cOrgao,
+            'chNFe' => $this->chNfe,
+            'dhEvento' => $this->dhEvento,
+            'descEvento'=>$this->descEvento,
+            'correcao'=>$this->correcao,
+            'condUso' => $this->condUso,
+            'nProt'=>$this->nProt
+        );
+    }
+    /**
+     * 
+     * @return json
+     */
+    public function getJsonBasicInfo(){
         return json_encode(array (
             'id' => $this->id,
             'cOrgao' => $this->cOrgao,
@@ -60,18 +76,18 @@ class NFeEvento extends AbstractNFe{
     
     /**
      * 
-     * @return float
-     */
-    public function getVersion(){
-        return $this->version;
-    }
-    
-    /**
-     * 
      * @return json
      */
     public function getJsonNFe(){
         return $this->NFeEvento;
+    }
+    
+    /**
+     * 
+     * @return float
+     */
+    public function getVersion(){
+        return $this->version;
     }
 }
 

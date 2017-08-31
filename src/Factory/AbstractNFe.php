@@ -24,6 +24,7 @@ abstract class AbstractNFe{
         return $this->typeName;
     }
     
-    abstract function getInfo(); /*algumas informações da nota em json*/
-    abstract function getJsonNFe(); /*Nota completa*/
+    abstract function getBasicInfo(); /*algumas informações da nota em array*/
+    abstract function getJsonBasicInfo(); /*algumas informações da nota em json*/
+    abstract function getJsonNFe(); /*Nota completa, sem interpretar, em json*/
 }
