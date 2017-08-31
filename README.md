@@ -36,17 +36,17 @@ Na pasta do projeto execute:
 O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
 
 #### Dentro do projeto
-Classe: FactoryNFe
++ Classe: FactoryNFe
 
-Método : load
++ Método : load()
 
-: Tipo: static
+- Tipo: static
    
-: Input: string (conteúdo do arquivo)
+- Input: string (conteúdo do arquivo)
    
-: Output: objeto
+- Output: objeto
    
-: Principais métodos do objeto retornado no output:
+- Principais métodos do objeto retornado no output:
   
        getJsonNFe()
        getBasicInfo()
