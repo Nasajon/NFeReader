@@ -40,17 +40,17 @@ Classe: FactoryNFe
 
 Método : load
 
-⋅⋅⋅ Tipo: static
+: Tipo: static
    
-⋅⋅⋅ Input: string (conteúdo do arquivo)
+: Input: string (conteúdo do arquivo)
    
-⋅⋅⋅ Output: objeto
+: Output: objeto
    
-⋅⋅⋅ Principais métodos do objeto retornado no output:
-   
-      - getJsonNFe()
-      - getBasicInfo()
-      - getJsonBasicInfo()
+: Principais métodos do objeto retornado no output:
+  
+       getJsonNFe()
+       getBasicInfo()
+       getJsonBasicInfo()
       
 **Nota**: O objeto pode ser do tipo NFe ou AverbacaoNFe
 
