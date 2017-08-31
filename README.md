@@ -31,25 +31,27 @@ Averbação | 1.0
 
 Na pasta do projeto execute:
 ```bash
-   $  php bin/console.php nasajon:nfereader <caminho da nota NFe a ser lida>
+   $  php bin/console.php nasajon:nfereader <caminho/da/nota/NFe/a/ser/lida>
 ```
 O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
 
 #### Dentro do projeto
 Classe: FactoryNFe
 
-método : load
+Método : load
 
-   Tipo: static
+⋅⋅⋅ Tipo: static
    
-   Input: string (conteúdo do arquivo)
+⋅⋅⋅ Input: string (conteúdo do arquivo)
    
-   Output: objeto
+⋅⋅⋅ Output: objeto
    
-   Principais métodos do objeto retornado no output:
-      * getJsonNFe()
-      * getBasicInfo()
-      * getJsonBasicInfo()
+⋅⋅⋅ Principais métodos do objeto retornado no output:
+   
+      - getJsonNFe()
+      - getBasicInfo()
+      - getJsonBasicInfo()
+      
 **Nota**: O objeto pode ser do tipo NFe ou AverbacaoNFe
 
 
