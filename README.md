@@ -69,7 +69,7 @@ Possíveis objetos:
 * NFe
 * AverbacaoNFe
 
-###### Principais métodos dos objetos citados acima:
+##### Principais métodos dos objetos citados acima:
 
 ###### getBasicInfo()
 
