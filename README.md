@@ -9,18 +9,6 @@ Averbação | 1.0
 
 ------------
 ## Instalação
-------------
-## Como utilizar
-
-#### Command line
-
-Na pasta do projeto execute:
-```bash
-   $  php bin/console.php nasajon:nfereader <caminho da nota NFe a ser lida>
-```
-O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
-
-#### Dentro do projeto
 ###### Composer
 ```
 "require": {
@@ -36,6 +24,34 @@ O resultado sera a exibição do retorno dos três métodos principais : getJson
         }
     ]
 ```
+------------
+## Como utilizar
+
+#### Command line
+
+Na pasta do projeto execute:
+```bash
+   $  php bin/console.php nasajon:nfereader <caminho da nota NFe a ser lida>
+```
+O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
+
+#### Dentro do projeto
+Classe: FactoryNFe
+
+método : load
+
+   Tipo: static
+   
+   Input: string (conteúdo do arquivo)
+   
+   Output: objeto
+   
+   Principais métodos do objeto retornado no output:
+      * getJsonNFe()
+      * getBasicInfo()
+      * getJsonBasicInfo()
+**Nota**: O objeto pode ser do tipo NFe ou AverbacaoNFe
+
 
 ------------
 ## input e Outputs
