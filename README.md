@@ -36,9 +36,9 @@ Na pasta do projeto execute:
 O resultado sera a exibição do retorno dos três métodos principais : getJsonNFe(), getBasicInfo() e getJsonBasicInfo.
 
 #### Dentro do projeto
-+ Classe: FactoryNFe
+ Classe: FactoryNFe
 
-+ Método : load()
+ Método : load()
 
  - Tipo: static
    
