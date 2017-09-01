@@ -77,8 +77,8 @@ class NFe extends AbstractNFe{
      * 
      * @return array
      */
-    public function getBasicInfo(){
-        return array (
+    private function basicInfoToArray(){
+        return  array (
             'id' => $this->id, 
             'dhEmi' =>  $this->dhEmi, 
             'dhSaiEnt' => $this->dhSaiEnt,
@@ -96,23 +96,18 @@ class NFe extends AbstractNFe{
     
     /**
      * 
+     * @return array
+     */
+    public function getBasicInfo(){
+        return $this->basicInfoToArray();
+    }
+    
+    /**
+     * 
      * @return json
      */
     public function getJsonBasicInfo(){
-        return json_encode (array (
-            'id' => $this->id, 
-            'dhEmi' =>  $this->dhEmi, 
-            'dhSaiEnt' => $this->dhSaiEnt,
-            'nNF' => $this->nNF, 
-            'natOp' => $this->natOp, 
-            'infCpl' => $this->infCpl, 
-            'vNF' => $this->vNF, 
-            'nProt' => $this->nProt, 
-            'emitCompany' => $this->emitCompany->getInfo(), 
-            'destCompany' => $this->destCompany->getInfo(), 
-            'prod' => $this->getProductsInfo(), 
-            'transp' => $this->transp->getInfo() 
-        ));
+        return json_encode ($this->basicInfoToArray());
     }
     
     /**

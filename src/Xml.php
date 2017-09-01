@@ -73,7 +73,7 @@ class Xml{
         if($value->length > 0 && !empty($value->item(0)->nodeValue)){
             return utf8_encode($value->item(0)->nodeValue);
         }
-        return false;
+        return null;
     }
     
     /**
@@ -91,7 +91,7 @@ class Xml{
             }
             return $children;
         }
-        return false;
+        return null;
     }
     
     /**
@@ -106,7 +106,7 @@ class Xml{
             $this->putChildInSameLevel($value->item(0), $children, null);
             return $children;
         }
-        return false;
+        return null;
     }
     
     /**

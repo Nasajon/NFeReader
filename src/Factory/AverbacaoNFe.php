@@ -45,33 +45,32 @@ class AverbacaoNFe extends AbstractNFe{
      * 
      * @return array
      */
-    public function getBasicInfo(){
+    private function basicInfoToArray(){
         return array (
-            'id' => $this->id,
-            'cOrgao' => $this->cOrgao,
-            'chNFe' => $this->chNfe,
-            'dhEvento' => $this->dhEvento,
-            'descEvento'=>$this->descEvento,
-            'correcao'=>$this->correcao,
-            'condUso' => $this->condUso,
-            'nProt'=>$this->nProt
-        );
+              'id' => $this->id,
+              'cOrgao' => $this->cOrgao,
+              'chNFe' => $this->chNfe,
+              'dhEvento' => $this->dhEvento,
+              'descEvento'=>$this->descEvento,
+              'correcao'=>$this->correcao,
+              'condUso' => $this->condUso,
+              'nProt'=>$this->nProt
+          );
+    }
+    
+    /**
+     * 
+     * @return array
+     */
+    public function getBasicInfo(){
+        return $this->basicInfoToArray();
     }
     /**
      * 
      * @return json
      */
     public function getJsonBasicInfo(){
-        return json_encode(array (
-            'id' => $this->id,
-            'cOrgao' => $this->cOrgao,
-            'chNFe' => $this->chNfe,
-            'dhEvento' => $this->dhEvento,
-            'descEvento'=>$this->descEvento,
-            'correcao'=>$this->correcao,
-            'condUso' => $this->condUso,
-            'nProt'=>$this->nProt
-        ));
+        return json_encode($this->basicInfoToArray());
     }
     
     /**

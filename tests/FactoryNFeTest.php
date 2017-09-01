@@ -8,6 +8,7 @@ use Nasajon\NFeReader\Xml;
 use ReflectionClass;
 
 class FactoryNFeTest extends TestCase{
+  
     public function getNfe() {
         $nfe = [];
         $nfe[] = [
