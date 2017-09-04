@@ -86,8 +86,8 @@ class Xml{
         if($nodes->length > 0){
             foreach ($nodes as $node){
                 $set= array ();
-                $this->putChildInSameLevel($node, $set, null);
-                $children[] = $set; 
+                $this->getChild($node, $set, null);
+                $children[] = $set[$tag]; 
             }
             return $children;
         }
@@ -96,6 +96,7 @@ class Xml{
     
     /**
      * Utilizado quando há tags com mais de um nível de profundidade dentro da tag referenciada no parâmetro da função
+     * Retorna as tags a partir da tag requisitada
      * @param string $tag
      * @return boolean
      */
@@ -103,26 +104,26 @@ class Xml{
         $value = $this->dom->getElementsByTagName($tag);
         if($value->length > 0){ 
             $children= array ();
-            $this->putChildInSameLevel($value->item(0), $children, null);
-            return $children;
+            $this->getChild($value->item(0), $children, null); 
+            return $children[$tag];
         }
         return null;
     }
     
     /**
-     * Coloca os valores das tags filhas, netas etc em um mesmo nó, retornando um array de único nível
-     * @param node $tag
-     * @param array $result
-     * @param string $father
+     * 
+     * @param node $tag node analisado
+     * @param array $result 
+     * @param node $father 
      * @return type
      */
-    private function putChildInSameLevel($tag, & $result, $father){
+    private function getChild($tag, & $result, $father){
         $childNodes = $tag->childNodes;
         if(empty($childNodes)){
-            return $result[$father] = utf8_encode($tag->nodeValue);
+            return utf8_encode($tag->nodeValue);
         }
-        foreach ($childNodes as $child){ 
-           $this->putChildInSameLevel($child, $result, $tag->nodeName);
+        foreach ($childNodes as $child){
+            $result[$tag->nodeName] = $this->getChild($child, $result[$tag->nodeName], $tag->nodeName);
         }
         return $result;
     }

@@ -34,6 +34,7 @@ class NFe extends AbstractNFe{
     public function __construct(Xml $xml, $version, $typeName) {
         parent::__construct($version, $typeName);
         $this->id = $xml->findAttribute('Id');
+        
         $this->nProt = $xml->getTagValue('nProt');
         $this->dhEmi = $xml->getTagValue('dhEmi');
         $this->dhSaiEnt = $xml->getTagValue('dhSaiEnt');
@@ -41,12 +42,13 @@ class NFe extends AbstractNFe{
         $this->infCpl = $xml->getTagValue('infCpl');
         $this->vNF = $xml->getTagValue('vNF');
         $this->nNF = $xml->getTagValue('nNF');
+        
         $emit = $xml->getChildTag('emit'); 
-        $emitPais = isset($emit['xPais'])?$emit['xPais']:null;
-        $this->emitCompany = new Company($emit['xNome'], $emit['CNPJ'], $emitPais, $emit['UF'], $emit['xMun']);
+        $emitPais = isset($emit['enderEmit']['xPais'])?$emit['enderEmit']['xPais']:null;
+        $this->emitCompany = new Company($emit['xNome'], $emit['CNPJ'], $emitPais, $emit['enderEmit']['UF'], $emit['enderEmit']['xMun']);
         $dest = $xml->getChildTag('dest');
-        $destPais = isset($dest['xPais'])?$dest['xPais']:null;
-        $this->destCompany = new Company($dest['xNome'], $dest['CNPJ'], $destPais, $dest['UF'], $dest['xMun']);
+        $destPais = isset($dest['enderDest']['xPais'])?$dest['enderDest']['xPais']:null;
+        $this->destCompany = new Company($dest['xNome'], $dest['CNPJ'], $destPais, $dest['enderDest']['UF'], $dest['enderDest']['xMun']);
         $this->prod = null;
         $transp = $xml->getChildTag('transporta');
         $transpId = isset($transp['CNPJ'])?$transp['CNPJ']: (isset($transp['CPF'])?$transp['CPF']: null);

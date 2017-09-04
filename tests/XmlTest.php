@@ -133,7 +133,7 @@ class XMLTest extends TestCase {
         $this->assertEquals($versao, $xml->findAttribute('versao'));
         $this->assertEquals($nNF, $xml->getTagValue('nNF'));
         $this->assertEquals($chNFe, $xml->getTagValue('chNFe'));
-        $this->assertEquals($uf, $xml->getChildTag('emit')['UF']);
+        $this->assertEquals($uf, $xml->getChildTag('emit')['enderEmit']['UF']);
         $this->assertEquals($cnpj, $xml->getChildTag('emit')['CNPJ']);
         
     }
