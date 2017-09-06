@@ -98,6 +98,15 @@ class NFe extends AbstractNFe{
     
     /**
      * 
+     * @return string 
+     */
+    public function getClass(){
+        $class = new \ReflectionClass($this); 
+        return $class->getShortName();
+    }
+    
+    /**
+     * 
      * @return array
      */
     public function getBasicInfo(){

@@ -23,6 +23,8 @@ class NFeReader extends Command {
       } else {
           throw new FileIsNotXMLException($file.' não é um XML');
       }
+      $output->writeln("\n".'Tipo:'."\n");
+      $output->writeln($nfe->getClass());
       $output->writeln("\n".'NFe Completa em json:'."\n");
       $output->writeln($nfe->getJsonNFe());
       $output->writeln("\n".'Informações básicas da NFe em json:'."\n");

@@ -24,6 +24,7 @@ abstract class AbstractNFe{
         return $this->typeName;
     }
     
+    abstract function getClass(); /*pega o nome da classe sem o namespace*/
     abstract function getBasicInfo(); /*algumas informações da nota em array*/
     abstract function getJsonBasicInfo(); /*algumas informações da nota em json*/
     abstract function getJsonNFe(); /*Nota completa, sem interpretar, em json*/
