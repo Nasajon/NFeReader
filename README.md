@@ -5,7 +5,7 @@
   NFe| Versões suportadas
 ------------ | -------------
 NFe | 3.10
-Averbação | 1.0
+Evento | 1.0
 
 ------------
 ## Instalação
@@ -52,7 +52,7 @@ O resultado será a exibição do retorno dos três métodos principais : getJso
        getBasicInfo()
        getJsonBasicInfo()
       
-**Nota**: O objeto pode ser do tipo NFe ou AverbacaoNFe
+**Nota**: O objeto pode ser do tipo NFe ou EventoNFe
 
 
 ------------
@@ -67,7 +67,7 @@ Conteúdo do arquivo a ser interpretado
 #### Outputs
 Possíveis objetos:
 * NFe
-* AverbacaoNFe
+* EventoNFe
 
 ##### Principais métodos dos objetos citados acima:
 
@@ -131,7 +131,7 @@ Dados do produto:
 * xProd
 * CFOP
 
-#### Averbação
+#### Evento
 
 * Id
 * nProt
