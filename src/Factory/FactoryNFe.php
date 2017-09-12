@@ -60,12 +60,12 @@ class FactoryNFe{
      * @param Xml $xml
      * @param float $version
      * @param string $nftype
-     * @return \Nasajon\NFeReader\Factory\AverbacaoNFe
+     * @return \Nasajon\NFeReader\Factory\EventoNFe
      */
     private static function loadNFeEventoVersion($xml, $version, $nftype){
         switch ($version){
             case 1.0:
-                $nfe = new AverbacaoNFe($xml, $version, $nftype);
+                $nfe = new EventoNFe($xml, $version, $nftype);
                 return $nfe;
         }
     }

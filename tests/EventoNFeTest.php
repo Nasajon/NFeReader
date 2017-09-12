@@ -3,7 +3,7 @@
 namespace Nasajon\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Nasajon\NFeReader\Factory\AverbacaoNFe;
+use Nasajon\NFeReader\Factory\EventoNFe;
 use Nasajon\NFeReader\Xml;
 
 class AverbacaoNFeTest extends TestCase{
@@ -57,7 +57,7 @@ class AverbacaoNFeTest extends TestCase{
       $xmlContent = file_get_contents($xmlPath);
       $xml = new Xml($xmlContent);
       
-      $nfe = new AverbacaoNFe($xml, $version, 'proceventonfe');
+      $nfe = new EventoNFe($xml, $version, 'proceventonfe');
 
       $this->assertEquals($basicInfo, $nfe->getBasicInfo());
 

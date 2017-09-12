@@ -7,7 +7,7 @@ use \Nasajon\NFeReader\Xml;
 /**
  * Notas de evento de averbação
  */
-class AverbacaoNFe extends AbstractNFe{
+class EventoNFe extends AbstractNFe{
     
     private $id;
     private $nProt;

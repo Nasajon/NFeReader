@@ -11,7 +11,6 @@ services:
        volumes:
            - ./:/nfe
        working_dir: /nfe
-       command: php -f readerNFe.php
        mem_limit: 512m
 
    composer:
