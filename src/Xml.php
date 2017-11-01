@@ -156,5 +156,15 @@ class Xml{
         $xml = simplexml_load_string($this->content);
         return json_encode($xml);
     }
+    
+    /**
+     * Salva o conteúdo do XML em um array
+     * @return array
+     */
+    public function toArray(){
+        $xml = simplexml_load_string($this->content);
+        $json = json_encode($xml);
+        return json_decode($json,TRUE);
+    }
 }
 
