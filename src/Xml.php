@@ -152,8 +152,9 @@ class Xml{
      * Salva o conteúdo do XML em um json
      * @return json
      */
-    public function toJson(){
-        $xml = simplexml_load_string($this->content);
+    public static function toJson($content){
+        $xmlstring = empty($content)?$this->content:$content;
+        $xml = simplexml_load_string($xmlstring);
         return json_encode($xml);
     }
     
@@ -161,8 +162,9 @@ class Xml{
      * Salva o conteúdo do XML em um array
      * @return array
      */
-    public function toArray(){
-        $xml = simplexml_load_string($this->content);
+    public static function toArray($content){
+        $xmlstring = empty($content)?$this->content:$content;
+        $xml = simplexml_load_string($xmlstring);
         $json = json_encode($xml);
         return json_decode($json,TRUE);
     }
