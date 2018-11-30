@@ -179,5 +179,20 @@ class Xml {
   public static function getXmlFromZip($documentoZipado) {
     return gzdecode(base64_decode($documentoZipado));
   }
+  
+  /*
+   * Retorna um objeto a partir do XML informado
+   * @param string xml
+   * @return object
+   */
+  public function toObject() {
+    $sxml = simplexml_load_string($this->content, null, LIBXML_NOCDATA);
+    $json = str_replace(
+        '@attributes',
+        'attributes',
+        json_encode($sxml, JSON_PRETTY_PRINT)
+    );
+    return json_decode($json);
+  }
 
 }
